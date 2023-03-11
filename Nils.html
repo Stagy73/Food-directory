@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style-nils-html.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="headerImage">
+       <h1 class="titleHeader" class="rotate">Les restaurants de Valence</h1>
+       <script>
+        // Get the h1 element
+        const titleHeader = document.querySelector('.titleHeader');
+      
+        // Add the .rotate class on hover
+        titleHeader.addEventListener('mouseover', () => {
+          titleHeader.classList.add('rotate');
+        });
+      
+        // Remove the .rotate class when the mouse leaves the element
+        titleHeader.addEventListener('mouseout', () => {
+          titleHeader.classList.remove('rotate');
+        });
+      </script>
+
+    </div>
+    <div class="restaurants-list"></div>
+    <div class="textbox"></div>
+    <div class="checkbox"></div>
+    <div class="prices"></div>
+    <div class="review"></div>
+    <div class="map"></div>
+    <div class="slide">test</div>
+
+</body>
+    </html>
