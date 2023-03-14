@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Nils.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4TKawJVgNVaaKOUwbg2MAcQywVSpNKRc&callback=initMap">
+</script>
     
     <link rel="stylesheet" href="style-nils-html.css">
     <title>Document</title>
@@ -14,8 +18,9 @@
 <div class="container">
     <div class="headerImage">
        <h1 class="titleHeader" class="rotate">Les restaurants de Valence</h1>
+       
        <script>
-        // Get the h1 element
+        // Get the h1 elementand rotate it
         const titleHeader = document.querySelector('.titleHeader');
       
         // Add the .rotate class on hover
@@ -30,12 +35,16 @@
       </script>
 
     </div>
-    <div class="restaurants-list"></div>
+    <div></div>
+    <div class="restaurant-list" id="restaurant-list"></div>
+      <h1>Restaurant List</h1>
+     <!-- HTML to display the list -->
+<ul id="scrapping-rest-details"></ul>
     <div class="textbox"></div>
     <div class="checkbox"></div>
     <div class="prices"></div>
     <div class="review"></div>
-    <div class="map"></div>
+    <div class="map" id="map"></div>
     <div class="slide">test</div>
 
 </body>

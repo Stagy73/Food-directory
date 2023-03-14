@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "slide textbox textbox checkbox"
+      "restaurants-list restaurants-list prices review"
+      "restaurants-list restaurants-list map map"
+      "restaurants-list restaurants-list map map";
+  }
+  
+  .header { grid-area: header; }
+  
+  .restaurants-list { grid-area: restaurants-list; }
+  
+  .textbox { grid-area: textbox; }
+  
+  .checkbox { grid-area: checkbox;}
+  
+  .prices { grid-area: prices; }
+  
+  .review { grid-area: review;}
+  
+  .map { grid-area: map; }
+  
+  .slide { grid-area: slide; }
+
+
+  /*visible div colors*/
+  .header {
+    background-color: aqua;
+    width: 100%;
+  }
+  .restaurants-list {
+    background-color: beige;
+    width: 100%;
+  }
+  .textbox {
+    background-color: coral;
+    width: 100%;
+  }
+  .checkbox {
+    background-color: gray;
+    width: 100%;
+  }
+  .prices {
+    background-color: pink;
+    width: 100%;
+  }
+  .review {
+    background-color: salmon;
+    width: 100%;
+  }
+  .map {
+    background-color: wheat;
+    width: 100%;
+  }
+  .slide {
+    background-color: yellow;
+    width: 100%;
+  }
+
+ 
+ 
+ 
+ 
+  .headerImage:first-child {
+    grid-column: 1 / span 5;
+    /* set the first grid item to span 5 columns starting from the first */
+    
+    background-image: url('meat.jpg');
+    /* sets the background image to "meat.jpg" */
+  
+    background-size: cover;
+    /* scales the background image to cover the entire element */
+  
+    height: 400px;
+    /* sets the height of the element to 400 pixels */
+  
+    width: 100%;
+    /* sets the width of the element to 100% of its parent container */
+  }
+   .titleHeader {
+   grid-column: 2/4;
+   color: aliceblue;
+   align-items: center;
+   /*use grid to center h1 and color it*/
+ 
+   }
+   .headerImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+  }
+  /*display flex headerImage to full width and align item center*/
+  
+
+  /*rotate H1*/
+  .titleHeader {
+    text-align: center;
+  }
+
+  .rotate {
+    animation: rotate 1s forwards;
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+
+  /* Basic styles for the restaurant list */
+#scrapping/rest-details {
+  list-style: none;
+  padding: 0;
+}
+
+/* Basic styles for the restaurant details */
+#scrapping/rest-details details {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Basic styles for the restaurant details summary */
+#scrapping/rest-details summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Basic styles for the restaurant property name */
+#scrapping/rest-details h4 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Basic styles for the restaurant property value */
+#scrapping/rest-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+
+#map {
+  display: grid;
+  grid-column: 3/5;
+  width: auto;
+  height:400px;
+}
+

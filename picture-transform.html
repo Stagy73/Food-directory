@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Nils.css">
+    <script src="Nils.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- mise en place of the div pictures followed 
+      by script transform for pict ID and a rotate for ID pic  on external js       -->
+    <div><img  src="img.jpeg" alt=""id="pic" ></div>
+    <div><img  src="img1.jpg" alt=""id="pict" ></div>
+   <script>const myImage = document.getElementById('pict');
+
+    myImage.addEventListener('mouseover', () => {
+      myImage.style.transform = 'scale(1.2)';
+    });
+    
+    myImage.addEventListener('mouseout', () => {
+      myImage.style.transform = 'scale(0.3)';
+    });
+</script> 
+    
+   
+    
+   
+      
+</body> 
+</html>
