@@ -9,6 +9,8 @@ fetch('scrapping/rest.json')
     restaurants.forEach(restaurant => {
       // Create a new list item element
       const listItem = document.createElement('li');
+      // Create a new div element to contain the restaurant information
+      const restaurantInfo = document.createElement('div');
 
       // Create an h2 element to display the restaurant name
       const name = document.createElement('h2');
