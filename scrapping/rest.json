@@ -1,7 +1,7 @@
 [{
   "title": "Restaurant La Casadaline",
   
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "24 Rue des Moulins, 26000 Valence, France",
   
   "neighborhood": "24 Rue des Moulins",
@@ -13,11 +13,7 @@
   "plusCode": "WVFX+XQ Valence, France",
   "website": "https://www.lacasadaline.fr/",
   "phone": "+33 7 49 12 73 35",
-  
-  "location": {
-    "lat": 44.9249573,
-    "lng": 4.8994673
-  },
+
   "url": "https://www.google.com/maps/place/Restaurant+La+Casadaline/@44.9249573,4.8994673,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5570defc3bc91:0x38a7247796a33460!8m2!3d44.9249573!4d4.8994673!16s%2Fg%2F11k3d9jpj3?hl=fr",
 },
 
@@ -27,7 +23,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restauration rapide",
+  "categoryName": "burger",
   "address": "342 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "342 Av. Victor Hugo",
@@ -41,11 +37,7 @@
   "phone": "+33 4 75 43 42 25",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.914425,
-    "lng": 4.8846853
-  },
-  
+
   "url": "https://www.google.com/maps/place/MIAM'S+Tacos/@44.914425,4.8846853,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817d80ac135:0xa9f480eaa17c4910!8m2!3d44.914425!4d4.8846853!16s%2Fg%2F11bzrrr0gq?hl=fr",
 },
 
@@ -55,7 +47,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "burger",
   "address": "13 Rue Henri Chalamet, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "13 Rue Henri Chalamet",
@@ -69,10 +61,6 @@
   "phone": "+33 4 75 63 88 51",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9297279,
-    "lng": 4.8936209
-  },
 
   "url": "https://www.google.com/maps/place/Bistrot+Burger+Valence/@44.9297279,4.8936209,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5593af1af4b85:0x34cb70874b22faf4!8m2!3d44.9297279!4d4.8936209!16s%2Fg%2F11jkrf1bvy?hl=fr",
 },
@@ -83,7 +71,7 @@
   "description": "Établissement sophistiqué servant des plats de poisson, de fruits de mer et de viande à la présentation soignée, et des desserts.",
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "5 Pl. des Clercs, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "5 Pl. des Clercs",
@@ -97,11 +85,7 @@
   "phone": "+33 4 75 86 09 68",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9319022,
-    "lng": 4.890518
-  },
-  
+
   "url": "https://www.google.com/maps/place/La+Cuisine/@44.9319022,4.890518,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582d406aecd1:0xe432b57a22baf565!8m2!3d44.9319022!4d4.890518!16s%2Fg%2F1tfnxykm?hl=fr",
 },
 
@@ -111,7 +95,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant marocain",
+  "categoryName": "oriental",
   "address": "33 Av. Félix Faure, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "33 Av. Félix Faure",
@@ -125,41 +109,10 @@
   "phone": "+33 4 75 56 94 21",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.931006,
-    "lng": 4.8952791
-  },
 
   "url": "https://www.google.com/maps/place/La+Mamounia+valence/@44.931006,4.8952791,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582b6f6d53ed:0x5b748826c1bb7dda!8m2!3d44.931006!4d4.8952791!16s%2Fg%2F1th09snt?hl=fr",
 },
 
-{
-  "title": "Kamkam food",
-  "subTitle": null,
-  "description": null,
-  "price": null,
-  "menu": null,
-  "categoryName": "Restauration rapide",
-  "address": "28 Rue Jean Bertin, 26000 Valence, France",
-  "locatedIn": null,
-  "neighborhood": "28 Rue Jean Bertin",
-  "street": "28 Rue Jean Bertin",
-  "city": "Valence",
-  "postalCode": "26000",
-  "state": null,
-  "countryCode": "FR",
-  "plusCode": "WW78+HM Valence, France",
-  "website": null,
-  "phone": "+33 7 51 08 39 68",
-  "temporarilyClosed": false,
-  "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9138959,
-    "lng": 4.916719
-  },
-
-  "url": "https://www.google.com/maps/place/Kamkam+food/@44.9138959,4.916719,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5579b4e01706b:0x9711ad34411817a0!8m2!3d44.9138959!4d4.916719!16s%2Fg%2F11k9kfsltp?hl=fr",
-},
 
 {
   "title": "Restaurant La Ravioline",
@@ -167,7 +120,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "18 Rue Dauphiné, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "18 Rue Dauphiné",
@@ -181,10 +134,6 @@
   "phone": "+33 4 75 43 56 21",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9330538,
-    "lng": 4.891415
-  },
 
   "url": "https://www.google.com/maps/place/Restaurant+La+Ravioline/@44.9330538,4.891415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559d2cddc9527:0xbb3701190b2a5d0a!8m2!3d44.9330538!4d4.891415!16s%2Fg%2F11cly2vyhw?hl=fr",
 },
@@ -195,7 +144,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant français",
+  "categoryName": "Brasserie",
   "address": "17 Rue Général Farre, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "17 Rue Général Farre",
@@ -209,11 +158,7 @@
   "phone": "+33 4 75 55 00 90",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9312912,
-    "lng": 4.8933351
-  },
-    
+
   "url": "https://www.google.com/maps/place/Restaurant+%22La+Table+des+Jeannes%22/@44.9312912,4.8933351,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582c947c437d:0x1d09f523414e5956!8m2!3d44.9312912!4d4.8933351!16s%2Fg%2F11c1ncf907?hl=fr",
 },
 
@@ -223,7 +168,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "oriental",
   "address": "Rue Denis Papin, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "Rue Denis Papin",
@@ -237,10 +182,6 @@
   "phone": "+33 4 75 44 14 97",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9277553,
-    "lng": 4.8925334
-  },
 
   "url": "https://www.google.com/maps/place/Restaurant+Le+Familial/@44.9277553,4.8925334,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582e85219619:0x5ff3833d1aeba170!8m2!3d44.9277553!4d4.8925334!16s%2Fg%2F1vg_c674?hl=fr",
 },
@@ -251,7 +192,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "burger",
   "address": "151 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "151 Av. Victor Hugo",
@@ -265,11 +206,7 @@
   "phone": "+33 9 50 55 94 08",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.923445,
-    "lng": 4.8875383
-  },
-  
+
   "url": "https://www.google.com/maps/place/H%26N+Food/@44.923445,4.8875383,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559e34f4c71b9:0xbc58179d2d0c010c!8m2!3d44.923445!4d4.8875383!16s%2Fg%2F11fr3ptqpp?hl=fr",
 },
 
@@ -293,11 +230,7 @@
   "phone": "+33 4 75 84 64 89",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.928029,
-    "lng": 4.891572
-  },
-  
+
   "url": "https://www.google.com/maps/place/Restaurant+La+Brocherie/@44.928029,4.891572,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582e802544d9:0xbf65bfd0306e9b9c!8m2!3d44.928029!4d4.891572!16s%2Fg%2F1w0h6w35?hl=fr",
 },
 
@@ -307,7 +240,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "116 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "116 Av. Victor Hugo",
@@ -321,11 +254,7 @@
   "phone": "+33 4 75 44 00 04",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9253817,
-    "lng": 4.8882783
-  },
-  
+
   "url": "https://www.google.com/maps/place/MAISON+GRIZLAW/@44.9253817,4.8882783,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55901953b3ad5:0x10b74d8e438dbbe5!8m2!3d44.9253817!4d4.8882783!16s%2Fg%2F11k2rb2qk7?hl=fr",
 },
 
@@ -349,11 +278,7 @@
   "phone": "+33 4 75 81 11 73",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9233513,
-    "lng": 4.887063
-  },
-  
+
   "url": "https://www.google.com/maps/place/La+Gondola/@44.9233513,4.887063,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583aa5f6738f:0xa9f41b8b9a8652a1!8m2!3d44.9233513!4d4.887063!16s%2Fg%2F1v4psbn9?hl=fr",
 },
 
@@ -363,7 +288,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restauration rapide",
+  "categoryName": "burger",
   "address": "102 Rue des Moulins, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "102 Rue des Moulins",
@@ -377,11 +302,7 @@
   "phone": "+33 6 63 41 84 78",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9221188,
-    "lng": 4.9025156
-  },
-  
+
   "url": "https://www.google.com/maps/place/Burger+Food/@44.9221188,4.9025156,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55788ba8fbe6b:0x10e74131af05db12!8m2!3d44.9221188!4d4.9025156!16s%2Fg%2F1q62gz_v7?hl=fr",
 },
 
@@ -405,11 +326,7 @@
   "phone": "+33 9 73 36 00 02",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9251718,
-    "lng": 4.8942067
-  },
-  
+
   "url": "https://www.google.com/maps/place/Restaurant+chez+Manou/@44.9251718,4.8942067,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55828dc9bb969:0xb939ed53bcb12bf!8m2!3d44.9251718!4d4.8942067!16s%2Fg%2F1td37lgt?hl=fr",
 },
 
@@ -433,11 +350,7 @@
   "phone": "+33 4 75 44 14 68",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.922314,
-    "lng": 4.8865253
-  },
-  
+
   "url": "https://www.google.com/maps/place/Restaurant+%22Un+tablier+pour+deux%22/@44.922314,4.8865253,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583ac12353d3:0x3dbde1c3cb1cd974!8m2!3d44.922314!4d4.8865253!16s%2Fg%2F1tm87sgc?hl=fr",
 },
 
@@ -447,7 +360,7 @@
   "description": null,
   "price": "$",
   "menu": null,
-  "categoryName": "Restaurant turc",
+  "categoryName": "kebab",
   "address": "215 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "215 Av. Victor Hugo",
@@ -461,11 +374,7 @@
   "phone": "+33 4 75 25 16 23",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9210481,
-    "lng": 4.8861415
-  },
-  
+
   "url": "https://www.google.com/maps/place/Cappadoce+kebab/@44.9210481,4.8861415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x18b683ed43942e39!8m2!3d44.9210481!4d4.8861415!16s%2Fg%2F1v8gbcfs?hl=fr",
 },
 
@@ -475,7 +384,7 @@
   "description": null,
   "price": "$",
   "menu": null,
-  "categoryName": "Bar",
+  "categoryName": "Brasserie",
   "address": "215 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "215 Av. Victor Hugo",
@@ -489,11 +398,7 @@
   "phone": "+33 4 75 83 42 48",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9209931,
-    "lng": 4.8861321
-  },
-  
+
   "url": "https://www.google.com/maps/place/L+Estaminet/@44.9209931,4.8861321,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x21fb390c85711e!8m2!3d44.9209931!4d4.8861321!16s%2Fg%2F1tdm7p2k?hl=fr",
 },
 
@@ -503,7 +408,7 @@
   "description": null,
   "price": "$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "kebab",
   "address": "32 Av. des Auréats, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "32 Av. des Auréats",
@@ -517,11 +422,7 @@
   "phone": "+33 4 75 59 90 26",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9014998,
-    "lng": 4.8838656
-  },
-  
+
   "url": "https://www.google.com/maps/place/ALI+BABA+Kebab%26Tacos/@44.9014998,4.8838656,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580f5f7c3db5:0xb32707ceb8450290!8m2!3d44.9014998!4d4.8838656!16s%2Fg%2F11cjj3xc9_?hl=fr",
 },
 
@@ -531,7 +432,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant arménien",
+  "categoryName": "oriental",
   "address": "97 Rue Denis Papin, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "97 Rue Denis Papin",
@@ -545,11 +446,7 @@
   "phone": "+33 9 50 89 22 41",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9221264,
-    "lng": 4.890671
-  },
-  
+
   "url": "https://www.google.com/maps/place/Chez+Gayane/@44.9221264,4.890671,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559871a9187d7:0x44378940937ed489!8m2!3d44.9221264!4d4.890671!16s%2Fg%2F11hz77_tjy?hl=fr",
 },
 
@@ -559,7 +456,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant de spécialités d'Afrique du Nord",
+  "categoryName": "oriental",
   "address": "378 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "378 Av. Victor Hugo",
@@ -573,11 +470,7 @@
   "phone": "+33 4 75 81 55 31",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9130947,
-    "lng": 4.8842553
-  },
-  
+
   "url": "https://www.google.com/maps/place/Restaurant+Le+Tipaza/@44.9130947,4.8842553,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817b8c2d85b:0x97d00971bf9ca6b2!8m2!3d44.9130947!4d4.8842553!16s%2Fg%2F1tdcwfvt?hl=fr",
 },
 
@@ -587,7 +480,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant italien",
+  "categoryName": "italien",
   "address": "196 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "196 Av. Victor Hugo",
@@ -601,11 +494,7 @@
   "phone": "+33 4 26 42 34 74",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9208489,
-    "lng": 4.8857713
-  },
-  
+
   "url": "https://www.google.com/maps/place/Pastello/@44.9208489,4.8857713,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55986ded61a7d:0x8d975dd6ae9de83!8m2!3d44.9208489!4d4.8857713!16s%2Fg%2F11q3x100ry?hl=fr",
 },
 
@@ -615,7 +504,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant halal",
+  "categoryName": "Brasserie",
   "address": "86 Rte de Beauvallon, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "86 Rte de Beauvallon",
@@ -629,68 +518,8 @@
   "phone": "+33 9 83 63 13 60",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.8992485,
-    "lng": 4.887844
-  },
-  
+
   "url": "https://www.google.com/maps/place/Grill+%26+Beef/@44.8992485,4.887844,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5590ce1636b2f:0xf1f20bb6a84083fb!8m2!3d44.8992485!4d4.887844!16s%2Fg%2F11fncwgbkh?hl=fr",
-},
-
-{
-  "title": "le Briff'O - Restaurant universitaire CROUS",
-  "subTitle": null,
-  "description": null,
-  "price": "$",
-  "menu": null,
-  "categoryName": "Restaurant",
-  "address": "26 Rue Barthélémy de Laffemas, 26000 Valence, France",
-  "locatedIn": null,
-  "neighborhood": "26 Rue Barthélémy de Laffemas",
-  "street": "26 Rue Barthélémy de Laffemas",
-  "city": "Valence",
-  "postalCode": "26000",
-  "state": null,
-  "countryCode": "FR",
-  "plusCode": "WW98+59 Valence, France",
-  "website": "https://www.crous-grenoble.fr/restaurant/briffo/",
-  "phone": "+33 4 75 56 48 18",
-  "temporarilyClosed": false,
-  "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9179479,
-    "lng": 4.9158877
-  },
-  
-  "url": "https://www.google.com/maps/place/le+Briff'O+-+Restaurant+universitaire+CROUS/@44.9179479,4.9158877,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557967e5eb1f9:0x96600072ddaef74c!8m2!3d44.9179479!4d4.9158877!16s%2Fg%2F11fyln8yph?hl=fr",
-},
-
-{
-  "title": "Crescendo Restaurant",
-  "subTitle": null,
-  "description": null,
-  "price": null,
-  "menu": null,
-  "categoryName": "Restaurant",
-  "address": "Av. de Provence, 26000 Valence, France",
-  "locatedIn": "Situé dans : La Galerie Géant - Valence Sud",
-  "neighborhood": "Av. de Provence",
-  "street": "Av. de Provence",
-  "city": "Valence",
-  "postalCode": "26000",
-  "state": null,
-  "countryCode": "FR",
-  "plusCode": "WV5H+CC Valence, France",
-  "website": null,
-  "phone": "+33 4 81 59 02 92",
-  "temporarilyClosed": false,
-  "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9085614,
-    "lng": 4.8785638
-  },
-  
-  "url": "https://www.google.com/maps/place/Crescendo+Restaurant/@44.9085614,4.8785638,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55928869d756d:0x8c5bfc2d451a2499!8m2!3d44.9085614!4d4.8785638!16s%2Fg%2F11tf3y5n36?hl=fr",
 },
 
 {
@@ -699,7 +528,7 @@
   "description": null,
   "price": "$",
   "menu": null,
-  "categoryName": "Restauration rapide",
+  "categoryName": "Pizzeria",
   "address": "79 Rue Barthélémy de Laffemas, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "79 Rue Barthélémy de Laffemas",
@@ -713,11 +542,7 @@
   "phone": "+33 6 31 35 76 83",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9144538,
-    "lng": 4.9134044
-  },
-  
+
   "url": "https://www.google.com/maps/place/Le+D'briff/@44.9144538,4.9134044,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55794961554e7:0x82acef686d0b24ee!8m2!3d44.9144538!4d4.9134044!16s%2Fg%2F11ddwxjhx_?hl=fr",
 },
 
@@ -727,7 +552,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "Bd Pierre Tezier, 26000 Valence, France",
   "locatedIn": "Situé dans : Best Western Plus Clos Syrah",
   "neighborhood": "Bd Pierre Tezier",
@@ -741,11 +566,7 @@
   "phone": "+33 4 75 55 52 52",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9071299,
-    "lng": 4.9088807
-  },
-  
+
   "url": "https://www.google.com/maps/place/La+Cabane+de+Mandrin/@44.9071299,4.9088807,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55719150fe479:0xa98332ede002d907!8m2!3d44.9071299!4d4.9088807!16s%2Fg%2F11t2s8dx6b?hl=fr",
 },
 
@@ -755,7 +576,7 @@
   "description": null,
   "price": "$",
   "menu": null,
-  "categoryName": "Café et restaurant de grillades",
+  "categoryName": "Brasserie",
   "address": "215 Rue Châteauvert, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "215 Rue Châteauvert",
@@ -769,11 +590,7 @@
   "phone": "+33 4 75 44 25 36",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9160866,
-    "lng": 4.8980263
-  },
-  
+
   "url": "https://www.google.com/maps/place/Caf%C3%A9+Restaurant+des+Sports/@44.9160866,4.8980263,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5578a62d407f3:0x50f2b4560496e65c!8m2!3d44.9160866!4d4.8980263!16s%2Fg%2F1vbnnrfz?hl=fr",
 },
 
@@ -783,7 +600,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Pizzeria",
   "address": "Trouvez nous devant le garage Renault Picot, 393 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "Trouvez nous devant le garage Renault Picot, 393 Av. Victor Hugo",
@@ -797,10 +614,7 @@
   "phone": "+33 6 11 40 27 51",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9117355,
-    "lng": 4.8847986
-  },
+
   
   "url": "https://www.google.com/maps/place/PIZZA+SANDY/@44.9117355,4.8847986,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557a216f5f02f:0x40b1fcdf0f328e19!8m2!3d44.9117355!4d4.8847986!16s%2Fg%2F11k3d46k9k?hl=fr",
 },
@@ -825,11 +639,7 @@
   "phone": "+33 4 75 44 51 79",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9085508,
-    "lng": 4.8831385
-  },
-  
+ 
   "url": "https://www.google.com/maps/place/Resto-Pizzas+Le+Rapido+Valence/@44.9085508,4.8831385,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810e73ceb47:0x6153010b9cfa3163!8m2!3d44.9085508!4d4.8831385!16s%2Fg%2F11b6sy7s4b?hl=fr",
 },
 
@@ -839,7 +649,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "142 Av. de Provence, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "142 Av. de Provence",
@@ -853,11 +663,7 @@
   "phone": "+33 4 86 84 08 12",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9203468,
-    "lng": 4.8782028
-  },
-  
+
   "url": "https://www.google.com/maps/place/L'Esprit+M/@44.9203468,4.8782028,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559fb59731519:0xde40fad52a4c90b0!8m2!3d44.9203468!4d4.8782028!16s%2Fg%2F11smnybjlz?hl=fr",
 },
 
@@ -867,7 +673,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "46 Rue de l'Ancien Vélodrome, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "46 Rue de l'Ancien Vélodrome",
@@ -881,11 +687,7 @@
   "phone": "+33 4 75 41 60 39",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9143905,
-    "lng": 4.8924697
-  },
-  
+
   "url": "https://www.google.com/maps/place/L'ORIGAN/@44.9143905,4.8924697,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55821e4a28fa5:0xce0b26e1d14affe4!8m2!3d44.9143905!4d4.8924697!16s%2Fg%2F1v4psbn7?hl=fr",
 },
 
@@ -895,7 +697,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "burger",
   "address": "Av. de Provence, 26000 Valence, France",
   "locatedIn": "Situé dans : La Galerie Géant - Valence Sud",
   "neighborhood": "Av. de Provence",
@@ -909,10 +711,7 @@
   "phone": "+33 4 81 59 02 92",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9084806,
-    "lng": 4.8783914
-  },
+
   
   "url": "https://www.google.com/maps/place/Jules+%26+John/@44.9084806,4.8783914,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559b4b2835c1f:0x902c23a5aaac947a!8m2!3d44.9084806!4d4.8783914!16s%2Fg%2F11rjs0cnfq?hl=fr",
 },
@@ -923,7 +722,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "asiatique",
   "address": "59 Av. des Auréats, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "59 Av. des Auréats",
@@ -937,11 +736,7 @@
   "phone": "+33 7 53 01 45 31",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.8999164,
-    "lng": 4.8855579
-  },
-  
+
   "url": "https://www.google.com/maps/place/Restaurant+Phuoc/@44.8999164,4.8855579,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5598b711d1d97:0x606a6dbcf4a58a3e!8m2!3d44.8999164!4d4.8855579!16s%2Fg%2F11s7y7cfpr?hl=fr",
 },
 
@@ -951,7 +746,7 @@
   "description": null,
   "price": "$$$",
   "menu": null,
-  "categoryName": "Restaurant gastronomique",
+  "categoryName": "semi-gastro",
   "address": "Chem. de l'Épervière, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "Chem. de l'Épervière",
@@ -965,10 +760,7 @@
   "phone": "+33 4 75 55 68 30",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.915,
-    "lng": 4.8752778
-  },
+
   
   "url": "https://www.google.com/maps/place/L'escale+de+Fonfon/@44.915,4.8752778,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55840b4af7a67:0x21d586505a994020!8m2!3d44.915!4d4.8752778!16s%2Fg%2F1hf3sypfq?hl=fr",
 },
@@ -979,7 +771,7 @@
   "description": "Chaîne de restaurants traditionnels au cadre rustique, spécialisés en grillades de viandes et assiettes-repas.",
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant de grillades à la française",
+  "categoryName": "Brasserie",
   "address": "2 Rue de Chantecouriol, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "2 Rue de Chantecouriol",
@@ -993,10 +785,7 @@
   "phone": "+33 4 75 40 74 74",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.903124,
-    "lng": 4.8796151
-  },
+
   
   "url": "https://www.google.com/maps/place/Courtepaille/@44.903124,4.8796151,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580dd9c5d77f:0xf58686d1c4831c97!8m2!3d44.903124!4d4.8796151!16s%2Fg%2F11bbypc7wh?hl=fr",
 },
@@ -1007,7 +796,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "355 Av. de Provence, 26000 Valence, France",
   "locatedIn": "Situé dans : Ibis Hôtel Valence Sud",
   "neighborhood": "355 Av. de Provence",
@@ -1021,10 +810,7 @@
   "phone": "+33 4 75 44 01 80",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9091103,
-    "lng": 4.8792882
-  },
+
   
   "url": "https://www.google.com/maps/place/La+Table-Epicerie+Aix+%26+Terra/@44.9091103,4.8792882,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55813926d9a25:0x3b6d3b8df33065c7!8m2!3d44.9091103!4d4.8792882!16s%2Fg%2F1hm2w339l?hl=fr",
 },
@@ -1035,7 +821,7 @@
   "description": "Ce restaurant sert de fins plats aux saveurs du monde dans un décor simple au plafond rose, avec parking.",
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant français",
+  "categoryName": "semi-gastro",
   "address": "336 Rue Faventines, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "336 Rue Faventines",
@@ -1049,41 +835,11 @@
   "phone": "+33 4 75 55 74 55",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.914271,
-    "lng": 4.9126594
-  },
+
   
-  "url": "https://www.google.com/maps/place/Restaurant+Le+Don+Camillo/@44.914271,4.9126594,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55791e2011513:0x7aa8a0c875b7b0a!8m2!3d44.914271!4d4.9126594!16s%2Fg%2F1vspqvrt?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+Le+Don+Camillo/@44.914271,4.9126594,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55791e2011513:0x7aa8a0c875b7b0a!8m2!3d44.914271!4d4.9126594!16s%2Fg%2F1vspqvrt?hl=fr"
 },
 
-{
-  "title": "La Paillote",
-  "subTitle": null,
-  "description": null,
-  "price": "$$",
-  "menu": null,
-  "categoryName": "Restaurant",
-  "address": "96 Rue Léon Gaumont, 26000 Valence, France",
-  "locatedIn": null,
-  "neighborhood": "96 Rue Léon Gaumont",
-  "street": "96 Rue Léon Gaumont",
-  "city": "Valence",
-  "postalCode": "26000",
-  "state": null,
-  "countryCode": "FR",
-  "plusCode": "WWCF+5H Valence, France",
-  "website": null,
-  "phone": "+33 4 75 83 43 56",
-  "temporarilyClosed": false,
-  "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9204117,
-    "lng": 4.9238902
-  },
-  
-  "url": "https://www.google.com/maps/place/La+Paillote/@44.9204117,4.9238902,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557bc9d6979ff:0x12891908c468ccc0!8m2!3d44.9204117!4d4.9238902!16s%2Fg%2F11fz9z_8d3?hl=fr",
-},
 
 {
   "title": "La Cabane",
@@ -1091,7 +847,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "kebab",
   "address": "123 Av. des Auréats, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "123 Av. des Auréats",
@@ -1105,10 +861,7 @@
   "phone": "+33 7 68 38 29 28",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.8958942,
-    "lng": 4.8840878
-  },
+
   
   "url": "https://www.google.com/maps/place/La+Cabane/@44.8958942,4.8840878,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d52ae2cfad3:0x86c77d3c62e6e923!8m2!3d44.8958942!4d4.8840878!16s%2Fg%2F11c2ptl1r5?hl=fr",
 },
@@ -1119,7 +872,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "236 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "236 Av. Victor Hugo",
@@ -1133,10 +886,7 @@
   "phone": "+33 4 75 44 39 31",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9191739,
-    "lng": 4.8855526
-  },
+
   
   "url": "https://www.google.com/maps/place/Restaurant+Jack+and+Jill/@44.9191739,4.8855526,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b6116c99d:0x444a4391e58c8312!8m2!3d44.9191739!4d4.8855526!16s%2Fg%2F1hc1jf3k7?hl=fr",
 },
@@ -1147,7 +897,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "Chem. du Plt de Lautagne 308, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "Chem. du Plt de Lautagne 308",
@@ -1161,10 +911,7 @@
   "phone": "+33 4 28 70 80 65",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9039165,
-    "lng": 4.9026358
-  },
+
   
   "url": "https://www.google.com/maps/place/Restaurant+5+et+5+Valence/@44.9039165,4.9026358,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557c4c268690d:0x6c178b5f396f5e84!8m2!3d44.9039165!4d4.9026358!16s%2Fg%2F11fp8k5wys?hl=fr",
 },
@@ -1175,7 +922,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Brasserie",
+  "categoryName": "semi-gastro",
   "address": "464 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "464 Av. Victor Hugo",
@@ -1189,10 +936,7 @@
   "phone": "+33 4 75 44 12 19",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9064436,
-    "lng": 4.8831243
-  },
+
   
   "url": "https://www.google.com/maps/place/Le+Romarin/@44.9064436,4.8831243,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810478ef4a1:0x6e1f50a10f046166!8m2!3d44.9064436!4d4.8831243!16s%2Fg%2F1tggswrw?hl=fr",
 },
@@ -1203,7 +947,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "Quartier, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "Quartier",
@@ -1217,10 +961,7 @@
   "phone": "+33 4 75 84 12 62",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9039629,
-    "lng": 4.869611
-  },
+
   
   "url": "https://www.google.com/maps/place/Le+Carr%C3%A9+des+L%C3%B4nes/@44.9039629,4.869611,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5598a555319db:0x6b83d9c149cebda2!8m2!3d44.9039629!4d4.869611!16s%2Fg%2F11h4yctzrb?hl=fr",
 },
@@ -1231,7 +972,7 @@
   "description": "Bistrot d'hôtel design avec lustres en pâte de verre et chaises en plexyglas pour une cuisine simple et chic.",
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "semi-gastro",
   "address": "285 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": "Situé dans : Maison Pic",
   "neighborhood": "285 Av. Victor Hugo",
@@ -1245,10 +986,7 @@
   "phone": "+33 4 75 44 53 86",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9176581,
-    "lng": 4.8855296
-  },
+
   
   "url": "https://www.google.com/maps/place/Andr%C3%A9/@44.9176581,4.8855296,17z/data=!3m1!4b1!4m9!3m8!1s0x47f5583cea156f3d:0xd0cdf361a5aa0219!5m2!4m1!1i2!8m2!3d44.9176581!4d4.8855296!16s%2Fg%2F1tmbvgk1?hl=fr",
 },
@@ -1259,7 +997,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "217 Av. de Provence, 26000 Valence, France",
   "locatedIn": "Étage 0 · Hôtel Novotel Valence Sud",
   "neighborhood": "217 Av. de Provence",
@@ -1273,10 +1011,7 @@
   "phone": "+33 4 75 82 07 70",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9189493,
-    "lng": 4.8786754
-  },
+
   
   "url": "https://www.google.com/maps/place/Mathuzar/@44.9189493,4.8786754,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559ba8a53d7a3:0xde7e182b99a420b1!8m2!3d44.9189493!4d4.8786754!16s%2Fg%2F11px5bw7fm?hl=fr",
 
@@ -1288,7 +1023,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "114 Rue de la Forêt, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "114 Rue de la Forêt",
@@ -1302,10 +1037,7 @@
   "phone": "+33 4 75 57 54 33",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9182451,
-    "lng": 4.9193828
-  },
+
   
   "url": "https://www.google.com/maps/place/Le+Resto+Association+Aire/@44.9182451,4.9193828,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557bdc0455555:0x9b3f89df988b9e87!8m2!3d44.9182451!4d4.9193828!16s%2Fg%2F11fsmvmbxt?hl=fr",
 },
@@ -1316,7 +1048,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "Restaurant",
+  "categoryName": "Brasserie",
   "address": "32 Av. des Auréats, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "32 Av. des Auréats",
@@ -1330,10 +1062,7 @@
   "phone": "+33 4 75 84 62 46",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.9013225,
-    "lng": 4.8838676
-  },
+
 
   "url": "https://www.google.com/maps/place/L'Art+Terre/@44.9013225,4.8838676,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580f597d6ac5:0xebe6b1106b255271!8m2!3d44.9013225!4d4.8838676!16s%2Fg%2F11b7ttv876?hl=fr",
 
@@ -1345,7 +1074,7 @@
   "description": null,
   "price": "$",
   "menu": null,
-  "categoryName": "Restaurant français",
+  "categoryName": "Brasserie",
   "address": "16 Rue des Mourettes, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "16 Rue des Mourettes",
@@ -1359,10 +1088,7 @@
   "phone": "+33 4 75 41 16 51",
   "temporarilyClosed": false,
   "claimThisBusiness": false,
-  "location": {
-    "lat": 44.8927765,
-    "lng": 4.8822599
-  },
+
 
   "url": "https://www.google.com/maps/place/Restaurant+Des+Mourettes/@44.8927765,4.8822599,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d4d90752675:0x8949d2839b60ec27!8m2!3d44.8927765!4d4.8822599!16s%2Fg%2F1thv1r3m?hl=fr",
 
