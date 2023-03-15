@@ -1,7 +1,7 @@
 [{
   "title": "Restaurant La Casadaline",
   
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "24 Rue des Moulins, 26000 Valence, France",
   
   "neighborhood": "24 Rue des Moulins",
@@ -14,7 +14,7 @@
   "website": "https://www.lacasadaline.fr/",
   "phone": "+33 7 49 12 73 35",
 
-  "url": "https://www.google.com/maps/place/Restaurant+La+Casadaline/@44.9249573,4.8994673,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5570defc3bc91:0x38a7247796a33460!8m2!3d44.9249573!4d4.8994673!16s%2Fg%2F11k3d9jpj3?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+La+Casadaline/@44.9249573,4.8994673,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5570defc3bc91:0x38a7247796a33460!8m2!3d44.9249573!4d4.8994673!16s%2Fg%2F11k3d9jpj3?hl=fr"
 },
 
 {
@@ -38,7 +38,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/MIAM'S+Tacos/@44.914425,4.8846853,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817d80ac135:0xa9f480eaa17c4910!8m2!3d44.914425!4d4.8846853!16s%2Fg%2F11bzrrr0gq?hl=fr",
+  "url": "https://www.google.com/maps/place/MIAM'S+Tacos/@44.914425,4.8846853,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817d80ac135:0xa9f480eaa17c4910!8m2!3d44.914425!4d4.8846853!16s%2Fg%2F11bzrrr0gq?hl=fr"
 },
 
 {
@@ -62,7 +62,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Bistrot+Burger+Valence/@44.9297279,4.8936209,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5593af1af4b85:0x34cb70874b22faf4!8m2!3d44.9297279!4d4.8936209!16s%2Fg%2F11jkrf1bvy?hl=fr",
+  "url": "https://www.google.com/maps/place/Bistrot+Burger+Valence/@44.9297279,4.8936209,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5593af1af4b85:0x34cb70874b22faf4!8m2!3d44.9297279!4d4.8936209!16s%2Fg%2F11jkrf1bvy?hl=fr"
 },
 
 {
@@ -71,7 +71,7 @@
   "description": "Établissement sophistiqué servant des plats de poisson, de fruits de mer et de viande à la présentation soignée, et des desserts.",
   "price": "$$",
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "5 Pl. des Clercs, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "5 Pl. des Clercs",
@@ -86,7 +86,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/La+Cuisine/@44.9319022,4.890518,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582d406aecd1:0xe432b57a22baf565!8m2!3d44.9319022!4d4.890518!16s%2Fg%2F1tfnxykm?hl=fr",
+  "url": "https://www.google.com/maps/place/La+Cuisine/@44.9319022,4.890518,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582d406aecd1:0xe432b57a22baf565!8m2!3d44.9319022!4d4.890518!16s%2Fg%2F1tfnxykm?hl=fr"
 },
 
 {
@@ -110,7 +110,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/La+Mamounia+valence/@44.931006,4.8952791,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582b6f6d53ed:0x5b748826c1bb7dda!8m2!3d44.931006!4d4.8952791!16s%2Fg%2F1th09snt?hl=fr",
+  "url": "https://www.google.com/maps/place/La+Mamounia+valence/@44.931006,4.8952791,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582b6f6d53ed:0x5b748826c1bb7dda!8m2!3d44.931006!4d4.8952791!16s%2Fg%2F1th09snt?hl=fr"
 },
 
 
@@ -135,7 +135,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+La+Ravioline/@44.9330538,4.891415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559d2cddc9527:0xbb3701190b2a5d0a!8m2!3d44.9330538!4d4.891415!16s%2Fg%2F11cly2vyhw?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+La+Ravioline/@44.9330538,4.891415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559d2cddc9527:0xbb3701190b2a5d0a!8m2!3d44.9330538!4d4.891415!16s%2Fg%2F11cly2vyhw?hl=fr"
 },
 
 {
@@ -159,7 +159,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+%22La+Table+des+Jeannes%22/@44.9312912,4.8933351,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582c947c437d:0x1d09f523414e5956!8m2!3d44.9312912!4d4.8933351!16s%2Fg%2F11c1ncf907?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+%22La+Table+des+Jeannes%22/@44.9312912,4.8933351,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582c947c437d:0x1d09f523414e5956!8m2!3d44.9312912!4d4.8933351!16s%2Fg%2F11c1ncf907?hl=fr"
 },
 
 {
@@ -183,7 +183,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+Le+Familial/@44.9277553,4.8925334,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582e85219619:0x5ff3833d1aeba170!8m2!3d44.9277553!4d4.8925334!16s%2Fg%2F1vg_c674?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+Le+Familial/@44.9277553,4.8925334,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582e85219619:0x5ff3833d1aeba170!8m2!3d44.9277553!4d4.8925334!16s%2Fg%2F1vg_c674?hl=fr"
 },
 
 {
@@ -207,7 +207,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/H%26N+Food/@44.923445,4.8875383,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559e34f4c71b9:0xbc58179d2d0c010c!8m2!3d44.923445!4d4.8875383!16s%2Fg%2F11fr3ptqpp?hl=fr",
+  "url": "https://www.google.com/maps/place/H%26N+Food/@44.923445,4.8875383,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559e34f4c71b9:0xbc58179d2d0c010c!8m2!3d44.923445!4d4.8875383!16s%2Fg%2F11fr3ptqpp?hl=fr"
 },
 
 {
@@ -231,7 +231,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+La+Brocherie/@44.928029,4.891572,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582e802544d9:0xbf65bfd0306e9b9c!8m2!3d44.928029!4d4.891572!16s%2Fg%2F1w0h6w35?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+La+Brocherie/@44.928029,4.891572,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5582e802544d9:0xbf65bfd0306e9b9c!8m2!3d44.928029!4d4.891572!16s%2Fg%2F1w0h6w35?hl=fr"
 },
 
 {
@@ -240,7 +240,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "116 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "116 Av. Victor Hugo",
@@ -255,7 +255,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/MAISON+GRIZLAW/@44.9253817,4.8882783,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55901953b3ad5:0x10b74d8e438dbbe5!8m2!3d44.9253817!4d4.8882783!16s%2Fg%2F11k2rb2qk7?hl=fr",
+  "url": "https://www.google.com/maps/place/MAISON+GRIZLAW/@44.9253817,4.8882783,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55901953b3ad5:0x10b74d8e438dbbe5!8m2!3d44.9253817!4d4.8882783!16s%2Fg%2F11k2rb2qk7?hl=fr"
 },
 
 {
@@ -279,7 +279,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/La+Gondola/@44.9233513,4.887063,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583aa5f6738f:0xa9f41b8b9a8652a1!8m2!3d44.9233513!4d4.887063!16s%2Fg%2F1v4psbn9?hl=fr",
+  "url": "https://www.google.com/maps/place/La+Gondola/@44.9233513,4.887063,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583aa5f6738f:0xa9f41b8b9a8652a1!8m2!3d44.9233513!4d4.887063!16s%2Fg%2F1v4psbn9?hl=fr"
 },
 
 {
@@ -303,7 +303,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Burger+Food/@44.9221188,4.9025156,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55788ba8fbe6b:0x10e74131af05db12!8m2!3d44.9221188!4d4.9025156!16s%2Fg%2F1q62gz_v7?hl=fr",
+  "url": "https://www.google.com/maps/place/Burger+Food/@44.9221188,4.9025156,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55788ba8fbe6b:0x10e74131af05db12!8m2!3d44.9221188!4d4.9025156!16s%2Fg%2F1q62gz_v7?hl=fr"
 },
 
 {
@@ -327,7 +327,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+chez+Manou/@44.9251718,4.8942067,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55828dc9bb969:0xb939ed53bcb12bf!8m2!3d44.9251718!4d4.8942067!16s%2Fg%2F1td37lgt?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+chez+Manou/@44.9251718,4.8942067,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55828dc9bb969:0xb939ed53bcb12bf!8m2!3d44.9251718!4d4.8942067!16s%2Fg%2F1td37lgt?hl=fr"
 },
 
 {
@@ -351,7 +351,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+%22Un+tablier+pour+deux%22/@44.922314,4.8865253,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583ac12353d3:0x3dbde1c3cb1cd974!8m2!3d44.922314!4d4.8865253!16s%2Fg%2F1tm87sgc?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+%22Un+tablier+pour+deux%22/@44.922314,4.8865253,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583ac12353d3:0x3dbde1c3cb1cd974!8m2!3d44.922314!4d4.8865253!16s%2Fg%2F1tm87sgc?hl=fr"
 },
 
 {
@@ -375,7 +375,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Cappadoce+kebab/@44.9210481,4.8861415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x18b683ed43942e39!8m2!3d44.9210481!4d4.8861415!16s%2Fg%2F1v8gbcfs?hl=fr",
+  "url": "https://www.google.com/maps/place/Cappadoce+kebab/@44.9210481,4.8861415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x18b683ed43942e39!8m2!3d44.9210481!4d4.8861415!16s%2Fg%2F1v8gbcfs?hl=fr"
 },
 
 {
@@ -399,7 +399,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/L+Estaminet/@44.9209931,4.8861321,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x21fb390c85711e!8m2!3d44.9209931!4d4.8861321!16s%2Fg%2F1tdm7p2k?hl=fr",
+  "url": "https://www.google.com/maps/place/L+Estaminet/@44.9209931,4.8861321,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x21fb390c85711e!8m2!3d44.9209931!4d4.8861321!16s%2Fg%2F1tdm7p2k?hl=fr"
 },
 
 {
@@ -423,7 +423,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/ALI+BABA+Kebab%26Tacos/@44.9014998,4.8838656,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580f5f7c3db5:0xb32707ceb8450290!8m2!3d44.9014998!4d4.8838656!16s%2Fg%2F11cjj3xc9_?hl=fr",
+  "url": "https://www.google.com/maps/place/ALI+BABA+Kebab%26Tacos/@44.9014998,4.8838656,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580f5f7c3db5:0xb32707ceb8450290!8m2!3d44.9014998!4d4.8838656!16s%2Fg%2F11cjj3xc9_?hl=fr"
 },
 
 {
@@ -447,7 +447,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Chez+Gayane/@44.9221264,4.890671,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559871a9187d7:0x44378940937ed489!8m2!3d44.9221264!4d4.890671!16s%2Fg%2F11hz77_tjy?hl=fr",
+  "url": "https://www.google.com/maps/place/Chez+Gayane/@44.9221264,4.890671,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559871a9187d7:0x44378940937ed489!8m2!3d44.9221264!4d4.890671!16s%2Fg%2F11hz77_tjy?hl=fr"
 },
 
 {
@@ -471,7 +471,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+Le+Tipaza/@44.9130947,4.8842553,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817b8c2d85b:0x97d00971bf9ca6b2!8m2!3d44.9130947!4d4.8842553!16s%2Fg%2F1tdcwfvt?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+Le+Tipaza/@44.9130947,4.8842553,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817b8c2d85b:0x97d00971bf9ca6b2!8m2!3d44.9130947!4d4.8842553!16s%2Fg%2F1tdcwfvt?hl=fr"
 },
 
 {
@@ -495,7 +495,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Pastello/@44.9208489,4.8857713,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55986ded61a7d:0x8d975dd6ae9de83!8m2!3d44.9208489!4d4.8857713!16s%2Fg%2F11q3x100ry?hl=fr",
+  "url": "https://www.google.com/maps/place/Pastello/@44.9208489,4.8857713,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55986ded61a7d:0x8d975dd6ae9de83!8m2!3d44.9208489!4d4.8857713!16s%2Fg%2F11q3x100ry?hl=fr"
 },
 
 {
@@ -519,7 +519,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Grill+%26+Beef/@44.8992485,4.887844,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5590ce1636b2f:0xf1f20bb6a84083fb!8m2!3d44.8992485!4d4.887844!16s%2Fg%2F11fncwgbkh?hl=fr",
+  "url": "https://www.google.com/maps/place/Grill+%26+Beef/@44.8992485,4.887844,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5590ce1636b2f:0xf1f20bb6a84083fb!8m2!3d44.8992485!4d4.887844!16s%2Fg%2F11fncwgbkh?hl=fr"
 },
 
 {
@@ -543,7 +543,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Le+D'briff/@44.9144538,4.9134044,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55794961554e7:0x82acef686d0b24ee!8m2!3d44.9144538!4d4.9134044!16s%2Fg%2F11ddwxjhx_?hl=fr",
+  "url": "https://www.google.com/maps/place/Le+D'briff/@44.9144538,4.9134044,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55794961554e7:0x82acef686d0b24ee!8m2!3d44.9144538!4d4.9134044!16s%2Fg%2F11ddwxjhx_?hl=fr"
 },
 
 {
@@ -552,7 +552,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "Bd Pierre Tezier, 26000 Valence, France",
   "locatedIn": "Situé dans : Best Western Plus Clos Syrah",
   "neighborhood": "Bd Pierre Tezier",
@@ -567,7 +567,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/La+Cabane+de+Mandrin/@44.9071299,4.9088807,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55719150fe479:0xa98332ede002d907!8m2!3d44.9071299!4d4.9088807!16s%2Fg%2F11t2s8dx6b?hl=fr",
+  "url": "https://www.google.com/maps/place/La+Cabane+de+Mandrin/@44.9071299,4.9088807,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55719150fe479:0xa98332ede002d907!8m2!3d44.9071299!4d4.9088807!16s%2Fg%2F11t2s8dx6b?hl=fr"
 },
 
 {
@@ -591,7 +591,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Caf%C3%A9+Restaurant+des+Sports/@44.9160866,4.8980263,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5578a62d407f3:0x50f2b4560496e65c!8m2!3d44.9160866!4d4.8980263!16s%2Fg%2F1vbnnrfz?hl=fr",
+  "url": "https://www.google.com/maps/place/Caf%C3%A9+Restaurant+des+Sports/@44.9160866,4.8980263,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5578a62d407f3:0x50f2b4560496e65c!8m2!3d44.9160866!4d4.8980263!16s%2Fg%2F1vbnnrfz?hl=fr"
 },
 
 {
@@ -616,7 +616,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/PIZZA+SANDY/@44.9117355,4.8847986,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557a216f5f02f:0x40b1fcdf0f328e19!8m2!3d44.9117355!4d4.8847986!16s%2Fg%2F11k3d46k9k?hl=fr",
+  "url": "https://www.google.com/maps/place/PIZZA+SANDY/@44.9117355,4.8847986,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557a216f5f02f:0x40b1fcdf0f328e19!8m2!3d44.9117355!4d4.8847986!16s%2Fg%2F11k3d46k9k?hl=fr"
 },
 
 {
@@ -640,7 +640,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
  
-  "url": "https://www.google.com/maps/place/Resto-Pizzas+Le+Rapido+Valence/@44.9085508,4.8831385,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810e73ceb47:0x6153010b9cfa3163!8m2!3d44.9085508!4d4.8831385!16s%2Fg%2F11b6sy7s4b?hl=fr",
+  "url": "https://www.google.com/maps/place/Resto-Pizzas+Le+Rapido+Valence/@44.9085508,4.8831385,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810e73ceb47:0x6153010b9cfa3163!8m2!3d44.9085508!4d4.8831385!16s%2Fg%2F11b6sy7s4b?hl=fr"
 },
 
 {
@@ -664,7 +664,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/L'Esprit+M/@44.9203468,4.8782028,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559fb59731519:0xde40fad52a4c90b0!8m2!3d44.9203468!4d4.8782028!16s%2Fg%2F11smnybjlz?hl=fr",
+  "url": "https://www.google.com/maps/place/L'Esprit+M/@44.9203468,4.8782028,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559fb59731519:0xde40fad52a4c90b0!8m2!3d44.9203468!4d4.8782028!16s%2Fg%2F11smnybjlz?hl=fr"
 },
 
 {
@@ -673,7 +673,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "46 Rue de l'Ancien Vélodrome, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "46 Rue de l'Ancien Vélodrome",
@@ -688,7 +688,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/L'ORIGAN/@44.9143905,4.8924697,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55821e4a28fa5:0xce0b26e1d14affe4!8m2!3d44.9143905!4d4.8924697!16s%2Fg%2F1v4psbn7?hl=fr",
+  "url": "https://www.google.com/maps/place/L'ORIGAN/@44.9143905,4.8924697,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55821e4a28fa5:0xce0b26e1d14affe4!8m2!3d44.9143905!4d4.8924697!16s%2Fg%2F1v4psbn7?hl=fr"
 },
 
 {
@@ -713,7 +713,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Jules+%26+John/@44.9084806,4.8783914,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559b4b2835c1f:0x902c23a5aaac947a!8m2!3d44.9084806!4d4.8783914!16s%2Fg%2F11rjs0cnfq?hl=fr",
+  "url": "https://www.google.com/maps/place/Jules+%26+John/@44.9084806,4.8783914,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559b4b2835c1f:0x902c23a5aaac947a!8m2!3d44.9084806!4d4.8783914!16s%2Fg%2F11rjs0cnfq?hl=fr"
 },
 
 {
@@ -737,7 +737,7 @@
   "temporarilyClosed": false,
   "claimThisBusiness": false,
 
-  "url": "https://www.google.com/maps/place/Restaurant+Phuoc/@44.8999164,4.8855579,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5598b711d1d97:0x606a6dbcf4a58a3e!8m2!3d44.8999164!4d4.8855579!16s%2Fg%2F11s7y7cfpr?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+Phuoc/@44.8999164,4.8855579,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5598b711d1d97:0x606a6dbcf4a58a3e!8m2!3d44.8999164!4d4.8855579!16s%2Fg%2F11s7y7cfpr?hl=fr"
 },
 
 {
@@ -746,7 +746,7 @@
   "description": null,
   "price": "$$$",
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "Chem. de l'Épervière, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "Chem. de l'Épervière",
@@ -762,7 +762,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/L'escale+de+Fonfon/@44.915,4.8752778,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55840b4af7a67:0x21d586505a994020!8m2!3d44.915!4d4.8752778!16s%2Fg%2F1hf3sypfq?hl=fr",
+  "url": "https://www.google.com/maps/place/L'escale+de+Fonfon/@44.915,4.8752778,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55840b4af7a67:0x21d586505a994020!8m2!3d44.915!4d4.8752778!16s%2Fg%2F1hf3sypfq?hl=fr"
 },
 
 {
@@ -787,7 +787,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Courtepaille/@44.903124,4.8796151,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580dd9c5d77f:0xf58686d1c4831c97!8m2!3d44.903124!4d4.8796151!16s%2Fg%2F11bbypc7wh?hl=fr",
+  "url": "https://www.google.com/maps/place/Courtepaille/@44.903124,4.8796151,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580dd9c5d77f:0xf58686d1c4831c97!8m2!3d44.903124!4d4.8796151!16s%2Fg%2F11bbypc7wh?hl=fr"
 },
 
 {
@@ -812,7 +812,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/La+Table-Epicerie+Aix+%26+Terra/@44.9091103,4.8792882,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55813926d9a25:0x3b6d3b8df33065c7!8m2!3d44.9091103!4d4.8792882!16s%2Fg%2F1hm2w339l?hl=fr",
+  "url": "https://www.google.com/maps/place/La+Table-Epicerie+Aix+%26+Terra/@44.9091103,4.8792882,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55813926d9a25:0x3b6d3b8df33065c7!8m2!3d44.9091103!4d4.8792882!16s%2Fg%2F1hm2w339l?hl=fr"
 },
 
 {
@@ -821,7 +821,7 @@
   "description": "Ce restaurant sert de fins plats aux saveurs du monde dans un décor simple au plafond rose, avec parking.",
   "price": "$$",
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "336 Rue Faventines, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "336 Rue Faventines",
@@ -863,7 +863,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/La+Cabane/@44.8958942,4.8840878,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d52ae2cfad3:0x86c77d3c62e6e923!8m2!3d44.8958942!4d4.8840878!16s%2Fg%2F11c2ptl1r5?hl=fr",
+  "url": "https://www.google.com/maps/place/La+Cabane/@44.8958942,4.8840878,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d52ae2cfad3:0x86c77d3c62e6e923!8m2!3d44.8958942!4d4.8840878!16s%2Fg%2F11c2ptl1r5?hl=fr"
 },
 
 {
@@ -872,7 +872,7 @@
   "description": null,
   "price": "$$",
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "236 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "236 Av. Victor Hugo",
@@ -888,7 +888,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Restaurant+Jack+and+Jill/@44.9191739,4.8855526,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b6116c99d:0x444a4391e58c8312!8m2!3d44.9191739!4d4.8855526!16s%2Fg%2F1hc1jf3k7?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+Jack+and+Jill/@44.9191739,4.8855526,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b6116c99d:0x444a4391e58c8312!8m2!3d44.9191739!4d4.8855526!16s%2Fg%2F1hc1jf3k7?hl=fr"
 },
 
 {
@@ -913,7 +913,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Restaurant+5+et+5+Valence/@44.9039165,4.9026358,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557c4c268690d:0x6c178b5f396f5e84!8m2!3d44.9039165!4d4.9026358!16s%2Fg%2F11fp8k5wys?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+5+et+5+Valence/@44.9039165,4.9026358,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557c4c268690d:0x6c178b5f396f5e84!8m2!3d44.9039165!4d4.9026358!16s%2Fg%2F11fp8k5wys?hl=fr"
 },
 
 {
@@ -922,7 +922,7 @@
   "description": null,
   "price": null,
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "464 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": null,
   "neighborhood": "464 Av. Victor Hugo",
@@ -938,7 +938,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Le+Romarin/@44.9064436,4.8831243,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810478ef4a1:0x6e1f50a10f046166!8m2!3d44.9064436!4d4.8831243!16s%2Fg%2F1tggswrw?hl=fr",
+  "url": "https://www.google.com/maps/place/Le+Romarin/@44.9064436,4.8831243,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810478ef4a1:0x6e1f50a10f046166!8m2!3d44.9064436!4d4.8831243!16s%2Fg%2F1tggswrw?hl=fr"
 },
 
 {
@@ -963,7 +963,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Le+Carr%C3%A9+des+L%C3%B4nes/@44.9039629,4.869611,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5598a555319db:0x6b83d9c149cebda2!8m2!3d44.9039629!4d4.869611!16s%2Fg%2F11h4yctzrb?hl=fr",
+  "url": "https://www.google.com/maps/place/Le+Carr%C3%A9+des+L%C3%B4nes/@44.9039629,4.869611,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5598a555319db:0x6b83d9c149cebda2!8m2!3d44.9039629!4d4.869611!16s%2Fg%2F11h4yctzrb?hl=fr"
 },
 
 {
@@ -972,7 +972,7 @@
   "description": "Bistrot d'hôtel design avec lustres en pâte de verre et chaises en plexyglas pour une cuisine simple et chic.",
   "price": null,
   "menu": null,
-  "categoryName": "semi-gastro",
+  "categoryName": "semiGastro",
   "address": "285 Av. Victor Hugo, 26000 Valence, France",
   "locatedIn": "Situé dans : Maison Pic",
   "neighborhood": "285 Av. Victor Hugo",
@@ -988,7 +988,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Andr%C3%A9/@44.9176581,4.8855296,17z/data=!3m1!4b1!4m9!3m8!1s0x47f5583cea156f3d:0xd0cdf361a5aa0219!5m2!4m1!1i2!8m2!3d44.9176581!4d4.8855296!16s%2Fg%2F1tmbvgk1?hl=fr",
+  "url": "https://www.google.com/maps/place/Andr%C3%A9/@44.9176581,4.8855296,17z/data=!3m1!4b1!4m9!3m8!1s0x47f5583cea156f3d:0xd0cdf361a5aa0219!5m2!4m1!1i2!8m2!3d44.9176581!4d4.8855296!16s%2Fg%2F1tmbvgk1?hl=fr"
 },
 
 {
@@ -1013,7 +1013,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Mathuzar/@44.9189493,4.8786754,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559ba8a53d7a3:0xde7e182b99a420b1!8m2!3d44.9189493!4d4.8786754!16s%2Fg%2F11px5bw7fm?hl=fr",
+  "url": "https://www.google.com/maps/place/Mathuzar/@44.9189493,4.8786754,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559ba8a53d7a3:0xde7e182b99a420b1!8m2!3d44.9189493!4d4.8786754!16s%2Fg%2F11px5bw7fm?hl=fr"
 
 },
 
@@ -1039,7 +1039,7 @@
   "claimThisBusiness": false,
 
   
-  "url": "https://www.google.com/maps/place/Le+Resto+Association+Aire/@44.9182451,4.9193828,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557bdc0455555:0x9b3f89df988b9e87!8m2!3d44.9182451!4d4.9193828!16s%2Fg%2F11fsmvmbxt?hl=fr",
+  "url": "https://www.google.com/maps/place/Le+Resto+Association+Aire/@44.9182451,4.9193828,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557bdc0455555:0x9b3f89df988b9e87!8m2!3d44.9182451!4d4.9193828!16s%2Fg%2F11fsmvmbxt?hl=fr"
 },
 
 {
@@ -1064,7 +1064,7 @@
   "claimThisBusiness": false,
 
 
-  "url": "https://www.google.com/maps/place/L'Art+Terre/@44.9013225,4.8838676,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580f597d6ac5:0xebe6b1106b255271!8m2!3d44.9013225!4d4.8838676!16s%2Fg%2F11b7ttv876?hl=fr",
+  "url": "https://www.google.com/maps/place/L'Art+Terre/@44.9013225,4.8838676,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5580f597d6ac5:0xebe6b1106b255271!8m2!3d44.9013225!4d4.8838676!16s%2Fg%2F11b7ttv876?hl=fr"
 
 },
 
@@ -1090,6 +1090,6 @@
   "claimThisBusiness": false,
 
 
-  "url": "https://www.google.com/maps/place/Restaurant+Des+Mourettes/@44.8927765,4.8822599,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d4d90752675:0x8949d2839b60ec27!8m2!3d44.8927765!4d4.8822599!16s%2Fg%2F1thv1r3m?hl=fr",
+  "url": "https://www.google.com/maps/place/Restaurant+Des+Mourettes/@44.8927765,4.8822599,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d4d90752675:0x8949d2839b60ec27!8m2!3d44.8927765!4d4.8822599!16s%2Fg%2F1thv1r3m?hl=fr"
 
 }]
