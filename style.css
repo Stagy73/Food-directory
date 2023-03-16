@@ -1,0 +1,22 @@
+#categories {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+
+
+}
+
+button {
+    width: 120px;
+}
+
+.bibli {
+    display: flex;
+    flex-direction: row;
+}
+
+#restaurantList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
