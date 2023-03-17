@@ -13,6 +13,7 @@ fetch('scrapping/rest.json')
       return button;
     });
 
+
     // Add the category buttons to the page
     const categoriesDiv = document.getElementById('categories');
     categoryButtons.forEach(button => categoriesDiv.appendChild(button));
@@ -47,10 +48,12 @@ function displayRestaurants(restaurants) {
   restaurants.forEach(restaurant => {
     // Create a <ul> element for the restaurant
     const restaurantUl = document.createElement('ul');
+    restaurantUl.classList.add('restaurantUl');
 
     // Create a <li> element for each parameter of the restaurant and append it to the <ul>
     const titleLi = document.createElement('li');
     titleLi.textContent = restaurant.title;
+    titleLi.classList.add('restaurant-title');
     restaurantUl.appendChild(titleLi);
 
     // adress li
@@ -82,7 +85,7 @@ function displayRestaurants(restaurants) {
     websiteLi.appendChild(websiteLink); // append the hyperlink element to the li element
     restaurantUl.appendChild(websiteLi);
 
-
+    // price
     const priceLi = document.createElement('li');
     priceLi.textContent = restaurant.price;
     restaurantUl.appendChild(priceLi);

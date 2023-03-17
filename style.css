@@ -1,22 +1,69 @@
 #categories {
     display: flex;
     flex-direction: column;
-    align-items: self-start;
+    justify-content: flex-start;
+    align-items: center;
 
 
 }
 
 button {
     width: 120px;
+    margin: 15px;
 }
 
 .bibli {
     display: flex;
     flex-direction: row;
+
 }
+
 
 #restaurantList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+    background-color: aqua;
     align-items: center;
+    list-style: none;
+
+
+}
+
+
+
+
+/* 
+.restaurantUl {
+    background-color: rgb(196, 240, 225);
+
+
+    padding: 2rem;
+    margin: 2rem;
+    list-style: none;
+} */
+
+.restaurantUl {
+    background-color: rgb(196, 240, 225);
+
+    padding: 1rem;
+
+
+}
+
+
+.restaurantUl li {
+    flex-basis: 32%;
+    background-color: rgb(196, 240, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
 }
