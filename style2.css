@@ -1,3 +1,7 @@
+body {
+background-color: black;
+}
+
 #categories {
     display: flex;
     flex-direction: column;
@@ -9,7 +13,13 @@
 
 button {
     width: 120px;
-    margin: 15px;
+    margin: 30px;
+    padding: 15px 10px;
+    font-style: oblique;
+    font-weight: bold;
+    background-color: burlywood ;
+    border-radius: 5px;
+
 }
 
 .bibli {
@@ -23,14 +33,10 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-
-
-    background-color: aqua;
+    flex-wrap: wrap; 
+    background-color: black;
     align-items: center;
     list-style: none;
-
-
 }
 
 
@@ -47,23 +53,23 @@ button {
 } */
 
 .restaurantUl {
-    background-color: rgb(196, 240, 225);
-
-    padding: 1rem;
-
+    background-color: burlywood;
+    padding: 1rem ;
+    border-radius:2rem 10px;
+    font-style: normal;
+    font-weight: bold;
 
 }
 
 
 .restaurantUl li {
     flex-basis: 32%;
-    background-color: rgb(196, 240, 225);
+    background-color: chocolate ;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 1rem;
-    background-color: white;
     border-radius: 5px;
     padding: 1rem;
 }
