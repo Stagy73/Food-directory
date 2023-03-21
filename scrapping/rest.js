@@ -1,4 +1,4 @@
-[
+const restaurants = [
   {
     "title": "Restaurant La Casadaline",
     "categoryName": "semiGastro",
@@ -284,7 +284,7 @@
     "description": null,
     "price": "$",
     "menu": null,
-    "categoryName": "Restaurant",
+    "categoryName": "Semi-Gastro",
     "address": "12 Pl. de la Paix, 26000 Valence, France",
     "locatedIn": null,
     "neighborhood": "12 Pl. de la Paix",
@@ -983,3 +983,5 @@
     "url": "https://www.google.com/maps/place/Restaurant+Des+Mourettes/@44.8927765,4.8822599,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d4d90752675:0x8949d2839b60ec27!8m2!3d44.8927765!4d4.8822599!16s%2Fg%2F1thv1r3m?hl=fr"
   }
 ]
+
+export default restaurants
