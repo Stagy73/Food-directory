@@ -1,6 +1,6 @@
 ('../scrapping/rest.js')
   .then(response => response.json())
-  .then(data) => {
+  .then(data) {
   // Get a list of all categories
   const categories = [...new Set(data.map(restaurant => restaurant.categoryName))];
 

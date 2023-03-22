@@ -1,12 +1,18 @@
 import restaurants from "/scrapping/rest.js";
 
-const categories = restaurants.map(restaurant => restaurant.categoryName);
+// Get a list of all categories
+const categories = [];
+restaurants.forEach(restaurant => {
+  if (!categories.includes(restaurant.categoryName)) {
+    categories.push(restaurant.categoryName);
+  }
+});
 
 // Create a button for each category
 const categoryButtons = categories.map(category => {
   const button = document.createElement('button');
   button.textContent = category;
-  button.addEventListener('click', () => filterRestaurants(category, data));
+  button.addEventListener('click', () => filterRestaurants(category, restaurants));
   return button;
 });
 
@@ -15,8 +21,6 @@ console.log(categories);
 // Add the category buttons to the page
 const categoriesDiv = document.getElementById('categories');
 categoryButtons.forEach(button => categoriesDiv.appendChild(button));
-
-
 
 // Filter restaurants based on the selected category
 function filterRestaurants(category, data) {
