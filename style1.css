@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 #categories {
     display: flex;
     flex-direction: column;
@@ -77,6 +81,7 @@ h1 {
     font-size: 45px;
     color: black;
     font-style: oblique;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
 .container {

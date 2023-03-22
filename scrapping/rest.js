@@ -2,6 +2,9 @@ const restaurants = [
   {
     "title": "Restaurant La Casadaline",
     "categoryName": "semiGastro",
+    // slug = nom du dossier dans /SRC
+    slug: "la-casadaline",
+
     "address": "24 Rue des Moulins, 26000 Valence, France",
     "price": "$$$",
     "neighborhood": "24 Rue des Moulins",
@@ -278,28 +281,7 @@ const restaurants = [
     "claimThisBusiness": false,
     "url": "https://www.google.com/maps/place/Burger+Food/@44.9221188,4.9025156,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55788ba8fbe6b:0x10e74131af05db12!8m2!3d44.9221188!4d4.9025156!16s%2Fg%2F1q62gz_v7?hl=fr"
   },
-  {
-    "title": "Restaurant chez Manou",
-    "subTitle": null,
-    "description": null,
-    "price": "$",
-    "menu": null,
-    "categoryName": "Semi-Gastro",
-    "address": "12 Pl. de la Paix, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "12 Pl. de la Paix",
-    "street": "12 Pl. de la Paix",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WVGV+3M Valence, France",
-    "website": null,
-    "phone": "+33 9 73 36 00 02",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/Restaurant+chez+Manou/@44.9251718,4.8942067,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55828dc9bb969:0xb939ed53bcb12bf!8m2!3d44.9251718!4d4.8942067!16s%2Fg%2F1td37lgt?hl=fr"
-  },
+
   {
     "title": "Restaurant \"Un tablier pour deux\"",
     "subTitle": null,
@@ -344,28 +326,7 @@ const restaurants = [
     "claimThisBusiness": false,
     "url": "https://www.google.com/maps/place/Cappadoce+kebab/@44.9210481,4.8861415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x18b683ed43942e39!8m2!3d44.9210481!4d4.8861415!16s%2Fg%2F1v8gbcfs?hl=fr"
   },
-  {
-    "title": "L Estaminet",
-    "subTitle": null,
-    "description": null,
-    "price": "$",
-    "menu": null,
-    "categoryName": "Brasserie",
-    "address": "215 Av. Victor Hugo, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "215 Av. Victor Hugo",
-    "street": "215 Av. Victor Hugo",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WVCP+9F Valence, France",
-    "website": null,
-    "phone": "+33 4 75 83 42 48",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/L+Estaminet/@44.9209931,4.8861321,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b1f4c5a87:0x21fb390c85711e!8m2!3d44.9209931!4d4.8861321!16s%2Fg%2F1tdm7p2k?hl=fr"
-  },
+
   {
     "title": "ALI BABA Kebab&Tacos",
     "subTitle": null,
@@ -410,28 +371,7 @@ const restaurants = [
     "claimThisBusiness": false,
     "url": "https://www.google.com/maps/place/Chez+Gayane/@44.9221264,4.890671,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559871a9187d7:0x44378940937ed489!8m2!3d44.9221264!4d4.890671!16s%2Fg%2F11hz77_tjy?hl=fr"
   },
-  {
-    "title": "Restaurant Le Tipaza",
-    "subTitle": null,
-    "description": null,
-    "price": "$$$",
-    "menu": null,
-    "categoryName": "Oriental",
-    "address": "378 Av. Victor Hugo, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "378 Av. Victor Hugo",
-    "street": "378 Av. Victor Hugo",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WV7M+6P Valence, France",
-    "website": null,
-    "phone": "+33 4 75 81 55 31",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/Restaurant+Le+Tipaza/@44.9130947,4.8842553,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55817b8c2d85b:0x97d00971bf9ca6b2!8m2!3d44.9130947!4d4.8842553!16s%2Fg%2F1tdcwfvt?hl=fr"
-  },
+
   {
     "title": "Pastello",
     "subTitle": null,
@@ -520,74 +460,10 @@ const restaurants = [
     "claimThisBusiness": false,
     "url": "https://www.google.com/maps/place/La+Cabane+de+Mandrin/@44.9071299,4.9088807,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55719150fe479:0xa98332ede002d907!8m2!3d44.9071299!4d4.9088807!16s%2Fg%2F11t2s8dx6b?hl=fr"
   },
-  {
-    "title": "Café Restaurant des Sports",
-    "subTitle": null,
-    "description": null,
-    "price": "$",
-    "menu": null,
-    "categoryName": "Brasserie",
-    "address": "215 Rue Châteauvert, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "215 Rue Châteauvert",
-    "street": "215 Rue Châteauvert",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WV8X+C6 Valence, France",
-    "website": null,
-    "phone": "+33 4 75 44 25 36",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/Caf%C3%A9+Restaurant+des+Sports/@44.9160866,4.8980263,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5578a62d407f3:0x50f2b4560496e65c!8m2!3d44.9160866!4d4.8980263!16s%2Fg%2F1vbnnrfz?hl=fr"
-  },
-  {
-    "title": "PIZZA SANDY",
-    "subTitle": null,
-    "description": null,
-    "price": "$$",
-    "menu": null,
-    "categoryName": "Pizzeria",
-    "address": "Trouvez nous devant le garage Renault Picot, 393 Av. Victor Hugo, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "Trouvez nous devant le garage Renault Picot, 393 Av. Victor Hugo",
-    "street": "Trouvez nous devant le garage Renault Picot, 393 Av. Victor Hugo",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WV6M+MW Valence, France",
-    "website": "https://pizza-sandy.eatbu.com/?lang=fr",
-    "phone": "+33 6 11 40 27 51",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/PIZZA+SANDY/@44.9117355,4.8847986,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557a216f5f02f:0x40b1fcdf0f328e19!8m2!3d44.9117355!4d4.8847986!16s%2Fg%2F11k3d46k9k?hl=fr"
-  },
-  {
-    "title": "Resto-Pizzas Le Rapido Valence",
-    "subTitle": null,
-    "description": null,
-    "price": "$",
-    "menu": null,
-    "categoryName": "Pizzeria",
-    "address": "Place Rimbaud, 426 Av. Victor Hugo, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "Place Rimbaud, 426 Av. Victor Hugo",
-    "street": "Place Rimbaud, 426 Av. Victor Hugo",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WV5M+C7 Valence, France",
-    "website": "http://le.rapido.over-blog.com/",
-    "phone": "+33 4 75 44 51 79",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/Resto-Pizzas+Le+Rapido+Valence/@44.9085508,4.8831385,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55810e73ceb47:0x6153010b9cfa3163!8m2!3d44.9085508!4d4.8831385!16s%2Fg%2F11b6sy7s4b?hl=fr"
-  },
+
   {
     "title": "L'Esprit M",
+    slug: "esprit-m",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -610,11 +486,12 @@ const restaurants = [
   },
   {
     "title": "L'ORIGAN",
+    slug: "origan",
     "subTitle": null,
     "description": null,
     "price": "$$",
     "menu": null,
-    "categoryName": "Semi-Gastro",
+    "categoryName": "Brasserie",
     "address": "46 Rue de l'Ancien Vélodrome, 26000 Valence, France",
     "locatedIn": null,
     "neighborhood": "46 Rue de l'Ancien Vélodrome",
@@ -632,6 +509,7 @@ const restaurants = [
   },
   {
     "title": "Jules & John",
+    slug: "jules-&-john",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -653,7 +531,8 @@ const restaurants = [
     "url": "https://www.google.com/maps/place/Jules+%26+John/@44.9084806,4.8783914,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559b4b2835c1f:0x902c23a5aaac947a!8m2!3d44.9084806!4d4.8783914!16s%2Fg%2F11rjs0cnfq?hl=fr"
   },
   {
-    "title": "Restaurant Phuoc",
+    "title": "Restaurant PHUOC LAM",
+    slug: "phuac-lam",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -676,6 +555,7 @@ const restaurants = [
   },
   {
     "title": "L'escale de Fonfon",
+    slug: "escale-de-foufon",
     "subTitle": null,
     "description": null,
     "price": "$$$",
@@ -698,6 +578,7 @@ const restaurants = [
   },
   {
     "title": "Courtepaille",
+    slug: "courtepaille",
     "subTitle": null,
     "description": "Chaîne de restaurants traditionnels au cadre rustique, spécialisés en grillades de viandes et assiettes-repas.",
     "price": "$$",
@@ -720,6 +601,7 @@ const restaurants = [
   },
   {
     "title": "La Table-Epicerie Aix & Terra",
+    slug: "la-table-epicerie-aix-&-terra",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -742,6 +624,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant Le Don Camillo",
+    slug: "le-don-camillon",
     "subTitle": null,
     "description": "Ce restaurant sert de fins plats aux saveurs du monde dans un décor simple au plafond rose, avec parking.",
     "price": "$$",
@@ -764,6 +647,7 @@ const restaurants = [
   },
   {
     "title": "La Cabane",
+    slug: "la-cabane",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -786,6 +670,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant Jack and Jill",
+    slug: "jack-and-jill",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -808,6 +693,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant 5 et 5 Valence",
+    slup: "5-et-5-valence",
     "subTitle": null,
     "description": null,
     "price": "$$$",
@@ -830,6 +716,7 @@ const restaurants = [
   },
   {
     "title": "Le Romarin",
+    slug: "le-romarin",
     "subTitle": null,
     "description": null,
     "price": "$$$",
@@ -852,6 +739,7 @@ const restaurants = [
   },
   {
     "title": "Le Carré des Lônes",
+    slug: "le-carre-des-lones",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -874,6 +762,7 @@ const restaurants = [
   },
   {
     "title": "André",
+    slug: "andre",
     "subTitle": null,
     "description": "Bistrot d'hôtel design avec lustres en pâte de verre et chaises en plexyglas pour une cuisine simple et chic.",
     "price": "$$$",
@@ -896,6 +785,7 @@ const restaurants = [
   },
   {
     "title": "Mathuzar",
+    slug: "mathuzar",
     "subTitle": null,
     "description": null,
     "price": "$$$",
@@ -918,6 +808,7 @@ const restaurants = [
   },
   {
     "title": "Le Resto Association Aire",
+    slug: "le-resto-association-aire",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -940,6 +831,7 @@ const restaurants = [
   },
   {
     "title": "L'Art Terre",
+    slug: "art-terre",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -962,6 +854,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant Des Mourettes",
+    slug: "restaurant-des-mourettes",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -983,5 +876,13 @@ const restaurants = [
     "url": "https://www.google.com/maps/place/Restaurant+Des+Mourettes/@44.8927765,4.8822599,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d4d90752675:0x8949d2839b60ec27!8m2!3d44.8927765!4d4.8822599!16s%2Fg%2F1thv1r3m?hl=fr"
   }
 ]
+
+
+
+/*    images: (new Array(4)).map(
+      (_, i) => `../src/${this.slug}/${i + 1}.png`
+    ),   */
+
+//console.log(images)
 
 export default restaurants
