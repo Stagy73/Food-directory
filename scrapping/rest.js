@@ -1,4 +1,4 @@
-[
+const restaurants = [
   {
     "title": "Restaurant La Casadaline",
     "categoryName": "semiGastro",
@@ -284,7 +284,7 @@
     "description": null,
     "price": "$",
     "menu": null,
-    "categoryName": "Restaurant",
+    "categoryName": "Semi-Gastro",
     "address": "12 Pl. de la Paix, 26000 Valence, France",
     "locatedIn": null,
     "neighborhood": "12 Pl. de la Paix",
@@ -992,3 +992,5 @@
     "vegan": "non"
   }
 ]
+
+export default restaurants
