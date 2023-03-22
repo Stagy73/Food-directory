@@ -19,6 +19,7 @@ const restaurants = [
   },
   {
     "title": "MIAM'S Tacos",
+    slug: "miams-tacos",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -41,6 +42,7 @@ const restaurants = [
   },
   {
     "title": "Bistrot Burger Valence",
+    slug: "bistrot-burger-valence",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -63,6 +65,7 @@ const restaurants = [
   },
   {
     "title": "La Cuisine",
+    slug: "la-cuisine",
     "subTitle": null,
     "description": "Établissement sophistiqué servant des plats de poisson, de fruits de mer et de viande à la présentation soignée, et des desserts.",
     "price": "$$",
@@ -85,6 +88,7 @@ const restaurants = [
   },
   {
     "title": "La Mamounia valence",
+    slug: "la-mamounia",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -107,6 +111,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant La Ravioline",
+    slug: "la-ravioline",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -128,7 +133,8 @@ const restaurants = [
     "url": "https://www.google.com/maps/place/Restaurant+La+Ravioline/@44.9330538,4.891415,17z/data=!3m1!4b1!4m6!3m5!1s0x47f559d2cddc9527:0xbb3701190b2a5d0a!8m2!3d44.9330538!4d4.891415!16s%2Fg%2F11cly2vyhw?hl=fr"
   },
   {
-    "title": "Restaurant \"La Table des Jeannes\"",
+    "title": "La Table des Jeannes",
+    slug: "la-table-des-jeannes",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -151,6 +157,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant Le Familial",
+    slug: "le-familial",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -173,6 +180,7 @@ const restaurants = [
   },
   {
     "title": "H&N Food",
+    slug: "h-&-n-food",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -195,6 +203,7 @@ const restaurants = [
   },
   {
     "title": "Restaurant La Brocherie",
+    slug: "la-brocherie",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -217,6 +226,7 @@ const restaurants = [
   },
   {
     "title": "MAISON GRIZLAW",
+    slug: "maison-grizlaw",
     "subTitle": null,
     "description": null,
     "price": "$$$",
@@ -239,6 +249,7 @@ const restaurants = [
   },
   {
     "title": "La Gondola",
+    slug: "la-gondola",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -261,6 +272,7 @@ const restaurants = [
   },
   {
     "title": "Burger Food",
+    slug: "burger-food",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -283,7 +295,8 @@ const restaurants = [
   },
 
   {
-    "title": "Restaurant \"Un tablier pour deux\"",
+    "title": "Un tablier pour deux",
+    slug: "un-tablier-pour-deux",
     "subTitle": null,
     "description": "Plats maison soignés à base de produits locaux, servis dans une salle néo-bistrot vintage et en terrasse.",
     "price": "$$",
@@ -306,6 +319,7 @@ const restaurants = [
   },
   {
     "title": "Cappadoce kebab",
+    slug: "cappadoce-kebab",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -329,6 +343,7 @@ const restaurants = [
 
   {
     "title": "ALI BABA Kebab&Tacos",
+    slug: "ali-baba-kebab&tacos",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -351,6 +366,7 @@ const restaurants = [
   },
   {
     "title": "Chez Gayane",
+    slug: "chez-gayane",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -374,6 +390,7 @@ const restaurants = [
 
   {
     "title": "Pastello",
+    slug: "pastello",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -396,6 +413,7 @@ const restaurants = [
   },
   {
     "title": "Grill & Beef",
+    slug: "grill-&-beef",
     "subTitle": null,
     "description": null,
     "price": "$$",
@@ -418,6 +436,7 @@ const restaurants = [
   },
   {
     "title": "Le D'briff",
+    slug: "le-d-briff",
     "subTitle": null,
     "description": null,
     "price": "$",
@@ -440,6 +459,7 @@ const restaurants = [
   },
   {
     "title": "La Cabane de Mandrin",
+    slug: "la-cabane-de-mandrin",
     "subTitle": null,
     "description": null,
     "price": "$$",
