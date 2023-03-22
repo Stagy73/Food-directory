@@ -1,11 +1,11 @@
 import restaurants from "/scrapping/rest.js";
 
-
 const categories = [];
 restaurants.forEach(restaurant => {
   if (!categories.includes(restaurant.categoryName)) {
     categories.push(restaurant.categoryName);
   }
+
 });
 
 

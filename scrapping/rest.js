@@ -1,6 +1,7 @@
 const restaurants = [
   {
     "title": "Restaurant La Casadaline",
+    "img": '../pictures/Casadaline/1.jpg',
     "categoryName": "semiGastro",
     "address": "24 Rue des Moulins, 26000 Valence, France",
     "price": "$$$",
@@ -985,6 +986,7 @@ const restaurants = [
   {
     "title": "Maison Pic",
     "price": "$$$$",
+    "categoryName": "Semi-Gastro",
     "address": "285 Av. Victor Hugo, 26000 Valence",
     "phone": "04 75 44 15 32",
     "website": "https://anne-sophie-pic.com/",
