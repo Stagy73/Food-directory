@@ -981,5 +981,14 @@
     "temporarilyClosed": false,
     "claimThisBusiness": false,
     "url": "https://www.google.com/maps/place/Restaurant+Des+Mourettes/@44.8927765,4.8822599,17z/data=!3m1!4b1!4m6!3m5!1s0x12b54d4d90752675:0x8949d2839b60ec27!8m2!3d44.8927765!4d4.8822599!16s%2Fg%2F1thv1r3m?hl=fr"
+  },
+  {
+    "title": "Maison Pic",
+    "price": "$$$$",
+    "address": "285 Av. Victor Hugo, 26000 Valence",
+    "phone": "04 75 44 15 32",
+    "website": "https://anne-sophie-pic.com/",
+    "url": "https://www.google.com/maps/place/Maison+Pic/@44.9176581,4.8855296,15z/data=!4m2!3m1!1s0x0:0xff78e52d9ca825be?sa=X&ved=2ahUKEwjR59eAuuf9AhW6bKQEHVwhCucQ_BJ6BAh1EAc",
+    "vegan": "non"
   }
 ]

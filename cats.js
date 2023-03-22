@@ -52,8 +52,11 @@ function displayRestaurants(restaurants) {
 
     // Create a <li> element for each parameter of the restaurant and append it to the <ul>
     const titleLi = document.createElement('li');
-    titleLi.textContent = restaurant.title;
-    titleLi.classList.add('restaurant-title');
+    const titleLink = document.createElement('a'); // create anchor element
+    titleLink.textContent = restaurant.title;
+    titleLink.href = '#'; // replace with URL of the page you want to link to
+    titleLink.classList.add('restaurant-title');
+    titleLi.appendChild(titleLink); // append anchor element to list item
     restaurantUl.appendChild(titleLi);
 
     // adress li
