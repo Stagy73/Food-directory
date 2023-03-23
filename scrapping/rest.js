@@ -2,7 +2,7 @@ const restaurants = [
   {
     "title": "Restaurant La Casadaline",
     "img": '../pictures/Casadaline/1.jpg',
-    "categoryName": "semiGastro",
+    "categoryName": "Semi-Gastro",
     "address": "24 Rue des Moulins, 26000 Valence, France",
     "price": "$$$",
     "neighborhood": "24 Rue des Moulins",
