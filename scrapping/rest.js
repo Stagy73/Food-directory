@@ -1,7 +1,7 @@
 const restaurants = [
   {
     "title": "Restaurant La Casadaline",
-    "categoryName": "semiGastro",
+    "categoryName": "Semi-Gastro",
     // slug = nom du dossier dans /SRC
     slug: "la-casadaline",
 
