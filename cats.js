@@ -87,30 +87,41 @@ function displayRestaurants(restaurants) {
       const detailsDiv = document.createElement("div");
       detailsDiv.classList.add("restaurant-details");
 
-      // Add the restaurant details to the div
+      //adress
       const addressLi = document.createElement("li");
+      addressLi.classList.add("liDetails")
+      console.log(addressLi)
       addressLi.textContent = restaurant.address;
       detailsDiv.appendChild(addressLi);
 
+      //phone
       const phoneLi = document.createElement("li");
+      phoneLi.classList.add("liDetails")
+      console.log(phoneLi)
       phoneLi.textContent = restaurant.phone;
       detailsDiv.appendChild(phoneLi);
 
+      //map
       const urlLi = document.createElement("li");
+      urlLi.classList.add("liDetails")
       const urlLink = document.createElement("a");
       urlLink.href = restaurant.url;
       urlLink.textContent = "Google Map";
       urlLi.appendChild(urlLink);
       detailsDiv.appendChild(urlLi);
 
+      // website
       const websiteLi = document.createElement("li");
+      websiteLi.classList.add("liDetails")
       const websiteLink = document.createElement("a");
       websiteLink.href = restaurant.website;
       websiteLink.textContent = restaurant.title;
       websiteLi.appendChild(websiteLink);
       detailsDiv.appendChild(websiteLi);
 
+      // price
       const priceLi = document.createElement("li");
+      priceLi.classList.add("liDetails")
       priceLi.textContent = restaurant.price;
       detailsDiv.appendChild(priceLi);
 

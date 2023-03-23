@@ -134,3 +134,15 @@ a:visited {
     color: whitesmoke;
 
 }
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.liDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
