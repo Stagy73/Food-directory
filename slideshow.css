@@ -1,0 +1,43 @@
+#slideshow-container {
+    position: relative;
+    height: 1200px;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+
+#prev-button,
+#next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#prev-button {
+    left: 0;
+}
+
+#next-button {
+    right: 0;
+}
