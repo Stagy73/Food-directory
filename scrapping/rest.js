@@ -1,7 +1,7 @@
 const restaurants = [
   {
     "title": "Restaurant La Casadaline",
-    "categoryName": "semiGastro",
+    "categoryName": "Semi-Gastro",
     "address": "24 Rue des Moulins, 26000 Valence, France",
     "price": "$$$",
     "neighborhood": "24 Rue des Moulins",
