@@ -8,8 +8,6 @@ restaurants.forEach(restaurant => {
   }
 
 });
-
-
 const categoryButtons = categories.map(category => {
   const button = document.createElement('button');
   button.textContent = category;
@@ -59,5 +57,66 @@ function displayRestaurants(restaurants) {
     restaurantUl.appendChild(titleLi);
     restaurantListDiv.appendChild(restaurantUl);
     titleLi.appendChild(imageLi);
+
+    //titleLink.href = '/popup/popup.html';
+    //titleLink.target = '_blank';
+    //titleLink.classList.add('restaurant-title');
+    //titleLi.appendChild(titleLink);
+    // restaurantUl.appendChild(titleLi);
+    titleLink.addEventListener("click", test);//eventlistener
+    // function intermediare to use function restdetails
+    // Add a variable to keep track of whether the restaurant details are currently displayed
+    let detailsDisplayed = false;
+
+    function test(e) {
+      const siblings = e.target.parentNode;
+      if (detailsDisplayed) {
+        // If the details are currently displayed, remove them and update the variable
+        siblings.removeChild(siblings.lastChild);
+        detailsDisplayed = false;
+      } else {
+        // If the details are not currently displayed, call restDetails() and update the variable
+        restDetails(siblings);
+        detailsDisplayed = true;
+      }
+    }
+    //function populate restaurant details once retaurant.title is clicked (via eventListener)
+    function restDetails(siblings) {
+      //restaurantUl.innerHTML = ''
+      // Create a div to hold the restaurant details
+      const detailsDiv = document.createElement("div");
+      detailsDiv.classList.add("restaurant-details");
+
+      // Add the restaurant details to the div
+      const addressLi = document.createElement("li");
+      addressLi.textContent = restaurant.address;
+      detailsDiv.appendChild(addressLi);
+
+      const phoneLi = document.createElement("li");
+      phoneLi.textContent = restaurant.phone;
+      detailsDiv.appendChild(phoneLi);
+
+      const urlLi = document.createElement("li");
+      const urlLink = document.createElement("a");
+      urlLink.href = restaurant.url;
+      urlLink.textContent = "Google Map";
+      urlLi.appendChild(urlLink);
+      detailsDiv.appendChild(urlLi);
+
+      const websiteLi = document.createElement("li");
+      const websiteLink = document.createElement("a");
+      websiteLink.href = restaurant.website;
+      websiteLink.textContent = restaurant.title;
+      websiteLi.appendChild(websiteLink);
+      detailsDiv.appendChild(websiteLi);
+
+      const priceLi = document.createElement("li");
+      priceLi.textContent = restaurant.price;
+      detailsDiv.appendChild(priceLi);
+
+      // Add the details div to the parent element
+      siblings.appendChild(detailsDiv);
+    }
+    restaurantListDiv.appendChild(restaurantUl);
   })
 }
