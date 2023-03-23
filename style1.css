@@ -7,13 +7,43 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
-
+    color: white;
 }
 
 button {
-    width: 120px;
-    margin: 15px;
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-style: oblique;
+    margin-bottom: 70px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+
+}
+
+button:hover {
+    background-color: forestgreen;
 }
 
 .bibli {
@@ -22,79 +52,73 @@ button {
 
 }
 
-
 #restaurantList {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
-
-    background-color: white;
     align-items: center;
     list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
 }
 
-
-
-
-/* 
 .restaurantUl {
-    background-color: rgb(196, 240, 225);
-
-
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1rem;
+    color: whitesmoke;
     list-style: none;
-} */
-
-.restaurantUl {
-    background-color: white;
-
-    padding: 1rem;
-
+    text-decoration: none;
+    display: grid;
+    grid-auto-columns: 100px 100px;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    grid-template-areas: 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 
 }
 
-
-.restaurantUl li {
-    flex-basis: 32%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 1rem;
-    background-color: black;
-    border-radius: 5px;
-    padding: 1rem;
-}
 
 body {
-    background-color: rgb(30, 29, 29);
+    background-color: bisque;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
+    background: #000000;
+    background: #000000;
+    background: #000000;
+    background: #000000;
+    background: -webkit-linear-gradient(0deg, #000000 0%, #7a6323 100%);
+    background: linear-gradient(0deg, #000000 0%, #7a6323 100%);
 
+}
 
 h1 {
-    font-size: 45px;
-    color: black;
     font-style: oblique;
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+    border: transparent;
+
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    color: white;
-    font-style: oblique;
+.Titre {
+    text-shadow: 0 0 4px #FF0000, 0 0 50px #FF0000, 0px 0px 14px #FF0000, 0 0 100px #FF0000, 0 0 150px #FF0000, 0 0 150px #FF0000, 0 0 550px #CA0000, 0 0 250px #CA0000, 0 0 350px #CA0000, 0 0 250px #CA0000;
+    color: #FFD000;
+    font-size: 100px;
 }
 
 h2 {
-    color: white;
-    ;
+    display: flex;
+    color: black;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-shadow: #800000 2px 2px 0,
+        #FF62 4px 4px 0,
+        #000000 6px 6px 0.5px,
+        #333 8px 11px 10px;
+    color: #FFFEA5;
 }
 
 .food {
@@ -102,8 +126,11 @@ h2 {
     background-position: center;
     background-size: cover;
     padding: 10rem;
-    color: black;
-    text-align: left;
     text-align: center;
-    text-size-adjust: auto;
+
+}
+
+a:visited {
+    color: whitesmoke;
+
 }

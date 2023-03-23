@@ -1,5 +1,5 @@
 body {
-background-color: black;
+background-color: 
 }
 
 #categories {
@@ -34,7 +34,7 @@ button {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap; 
-    background-color: black;
+    background-color:
     align-items: center;
     list-style: none;
 }
