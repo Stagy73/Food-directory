@@ -40,7 +40,7 @@ function displayRestaurants(restaurants) {
   }
 
   function getUrlFromSlug(slug) {
-    return `src/${slug}/1.jpg`;
+    return `src/${slug}/2.jpg`;
   }
 
   restaurants.forEach(restaurant => {
@@ -54,15 +54,11 @@ function displayRestaurants(restaurants) {
     titleLink.href = '#';
     titleLink.classList.add('restaurant-title');
     titleLi.appendChild(titleLink);
+    restaurantUl.appendChild(imageLi);
     restaurantUl.appendChild(titleLi);
     restaurantListDiv.appendChild(restaurantUl);
-    titleLi.appendChild(imageLi);
 
-    //titleLink.href = '/popup/popup.html';
-    //titleLink.target = '_blank';
-    //titleLink.classList.add('restaurant-title');
-    //titleLi.appendChild(titleLink);
-    // restaurantUl.appendChild(titleLi);
+
     titleLink.addEventListener("click", test);//eventlistener
     // function intermediare to use function restdetails
     // Add a variable to keep track of whether the restaurant details are currently displayed
@@ -82,7 +78,7 @@ function displayRestaurants(restaurants) {
     }
     //function populate restaurant details once retaurant.title is clicked (via eventListener)
     function restDetails(siblings) {
-      //restaurantUl.innerHTML = ''
+
       // Create a div to hold the restaurant details
       const detailsDiv = document.createElement("div");
       detailsDiv.classList.add("restaurant-details");
