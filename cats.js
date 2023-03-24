@@ -51,18 +51,17 @@ function displayRestaurants(restaurants) {
     const titleLink = document.createElement('a');
     imageLi.src = getUrlFromSlug(restaurant.slug);
     titleLink.textContent = restaurant.title;
-    titleLink.href = '#';
+    //titleLink.href = 'popup.html';
     titleLink.classList.add('restaurant-title');
     titleLi.appendChild(titleLink);
     restaurantUl.appendChild(titleLi);
     restaurantListDiv.appendChild(restaurantUl);
     titleLi.appendChild(imageLi);
+    titleLi.classList.add("liDetails")
+    imageLi.classList.add("liDetails")
 
     //titleLink.href = '/popup/popup.html';
-    //titleLink.target = '_blank';
-    //titleLink.classList.add('restaurant-title');
-    //titleLi.appendChild(titleLink);
-    // restaurantUl.appendChild(titleLi);
+
     titleLink.addEventListener("click", test);//eventlistener
     // function intermediare to use function restdetails
     // Add a variable to keep track of whether the restaurant details are currently displayed
@@ -131,3 +130,4 @@ function displayRestaurants(restaurants) {
     restaurantListDiv.appendChild(restaurantUl);
   })
 }
+

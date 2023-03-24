@@ -71,7 +71,7 @@ button:hover {
     text-decoration: none;
     display: grid;
     grid-auto-columns: 100px 100px;
-    grid-template-columns: 125px 125px 125px;
+    grid-template-columns: 250px 250px 250px;
     grid-template-rows: repeat(3, 100px);
     gap: 10px;
     grid-template-areas: 10px;
@@ -140,9 +140,33 @@ img {
     height: 200px;
 }
 
+
 .liDetails {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* two eual columns */
+    grid-auto-flow: row;
+}
+
+.liDetails li:nth-child(1) {
+    grid-column: 1;
+    /* assign first li to first column */
+}
+
+.liDetails li:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+    /* assign second li to first column */
+}
+
+.liDetails li:nth-child(5) {
+    grid-column: 3;
+    grid-row: 1;
+    /* assign third li to second column */
+}
+
+.liDetails li:nth-child(6) {
+    grid-column: 3;
+    grid-row: 1;
+    /* assign fourth li to second column */
 }
