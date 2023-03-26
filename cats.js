@@ -98,6 +98,13 @@ function displayRestaurants(restaurants) {
       urlLink.textContent = "Google Map";
       urlLi.appendChild(urlLink);
       detailsDiv.appendChild(urlLi);
+      const mapLi = document.createElement("li");
+      const mapDiv = document.createElement("div");
+      mapDiv.classList.add("restaurant-map");
+      const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyB4TKawJVgNVaaKOUwbg2MAcQywVSpNKRc&q=${encodeURIComponent(restaurant.address)}`;
+      mapDiv.innerHTML = `<iframe width="100%" height="300" frameborder="0" style="border:0" src="${mapUrl}" allowfullscreen></iframe>`;
+      mapLi.appendChild(mapDiv);
+      detailsDiv.appendChild(mapLi);
 
       const websiteLi = document.createElement("li");
       const websiteLink = document.createElement("a");
@@ -113,9 +120,9 @@ function displayRestaurants(restaurants) {
       // Create a popup window to display the details
       const popupWindow = window.open("", "restaurantDetailsPopup", "width=400,height=300");
       popupWindow.document.body.appendChild(detailsDiv);
-    
 
-    
+
+
 
     }
     restaurantListDiv.appendChild(restaurantUl);
