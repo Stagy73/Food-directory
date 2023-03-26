@@ -58,26 +58,26 @@ function displayRestaurants(restaurants) {
     restaurantUl.appendChild(titleLi);
     restaurantListDiv.appendChild(restaurantUl);
 
-
-    titleLink.addEventListener("click", test);//eventlistener
-    // function intermediare to use function restdetails
+    titleLink.addEventListener("click", toggleDetailsPopup);//eventlistener
+    // function intermediare to use function restdetailsPopup
     // Add a variable to keep track of whether the restaurant details are currently displayed
     let detailsDisplayed = false;
 
-    function test(e) {
+    function toggleDetailsPopup(e) {
       const siblings = e.target.parentNode;
       if (detailsDisplayed) {
         // If the details are currently displayed, remove them and update the variable
         siblings.removeChild(siblings.lastChild);
         detailsDisplayed = false;
       } else {
-        // If the details are not currently displayed, call restDetails() and update the variable
-        restDetails(siblings);
+        // If the details are not currently displayed, call restDetailsPopup() and update the variable
+        restDetailsPopup(siblings);
         detailsDisplayed = true;
       }
     }
-    //function populate restaurant details once retaurant.title is clicked (via eventListener)
-    function restDetails(siblings) {
+
+    //function to show the restaurant details in a popup window
+    function restDetailsPopup(siblings) {
 
       // Create a div to hold the restaurant details
       const detailsDiv = document.createElement("div");
@@ -110,8 +110,13 @@ function displayRestaurants(restaurants) {
       priceLi.textContent = restaurant.price;
       detailsDiv.appendChild(priceLi);
 
-      // Add the details div to the parent element
-      siblings.appendChild(detailsDiv);
+      // Create a popup window to display the details
+      const popupWindow = window.open("", "restaurantDetailsPopup", "width=400,height=300");
+      popupWindow.document.body.appendChild(detailsDiv);
+    
+
+    
+
     }
     restaurantListDiv.appendChild(restaurantUl);
   })
