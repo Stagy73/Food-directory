@@ -1,4 +1,5 @@
 import restaurants from "/scrapping/rest.js";
+<<<<<<< HEAD
 function displayRestClickUser()
 
 const categories = [];
@@ -8,6 +9,18 @@ restaurants.forEach(restaurant => {
   }
 });
 
+=======
+//a.restaurant.title.addEventListener('click') 
+function displayRestClickUser() {
+
+}
+const categories = [];
+restaurants.forEach(restaurant => {
+  if (!categories.includes(restaurant.categoryName)) {
+    categories.push(restaurant.categoryName);
+  }
+});
+>>>>>>> f6dc7e7c5efa9452c84a02f333340e92787121a2
 
 // adress li
 const addressLi = document.createElement('li');

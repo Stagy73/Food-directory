@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+}
+
+#categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button {
+    display: inline-block;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-style: oblique;
+    margin-bottom: 70px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+
+}
+
+button:hover {
+    background-color: forestgreen;
+}
+
+.bibli {
+    display: flex;
+    flex-direction: row;
+}
+
+#restaurantList {
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+    background-color: pink;
+    align-items: center;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+/*
+.restaurantUl {
+    background-color: orange;
+
+
+    padding: 2rem;
+    margin: 2rem;
+    list-style: none;
+} */
+
+.restaurantUl {
+    background-color: hotpink;
+    padding: 1rem;
+}
+
+.restaurantUl li {
+    flex-basis: 32%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.food {
+    background-image: url(src/pictureplat.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumturquoise;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:visited {
+    color: black;
+}

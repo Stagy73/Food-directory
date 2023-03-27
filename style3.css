@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
+
 }
 
 button {
@@ -13,23 +15,28 @@ button {
 .bibli {
     display: flex;
     flex-direction: row;
+
 }
+
 
 #restaurantList {
     display: flex;
-    flex-direction: center;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 
 
-    background-color: pink;
+    background-color: white;
     align-items: center;
     list-style: none;
 }
 
-/*
+
+
+
+/* 
 .restaurantUl {
-    background-color: orange;
+    background-color: rgb(196, 240, 225);
 
 
     padding: 2rem;
@@ -38,9 +45,13 @@ button {
 } */
 
 .restaurantUl {
-    background-color: hotpink;
+    background-color: white;
+
     padding: 1rem;
+
+
 }
+
 
 .restaurantUl li {
     flex-basis: 32%;
@@ -50,9 +61,35 @@ button {
     justify-content: center;
     text-align: center;
     margin-bottom: 1rem;
-    background-color: white;
+    background-color: black;
     border-radius: 5px;
     padding: 1rem;
+}
+
+body {
+    background-color: rgb(30, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: black;
+    font-style: oblique;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    font-style: oblique;
+}
+
+h2 {
+    color: white;
+    ;
 }
 
 .food {
@@ -64,27 +101,4 @@ button {
     text-align: left;
     text-align: center;
     text-size-adjust: auto;
-}
-
-body {
-    background-color: lightgoldenrodyellow;
-    font-family: Arial, Helvetica, sans-serif;
-    color: mediumturquoise;
-}
-
-h1 {
-    font-size: 30px;
-    color: black;
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
-}
-
-h2 {
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-a:visited {
-    color: black;
 }
