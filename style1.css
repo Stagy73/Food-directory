@@ -142,3 +142,36 @@ img {
     height: 300px;
     border-radius: 10px;
 }
+
+.popup {
+    background-color: yellow !important;
+
+
+}
+
+.website {
+    background-color: #7a6323;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+}
+
+.phone {
+    color: blue;
+    font-weight: bold;
+    /* add more styles as needed */
+}
