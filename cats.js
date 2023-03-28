@@ -111,6 +111,7 @@ function displayRestaurants(restaurants) {
       siblings.appendChild(detailsDiv);
 
       const websiteModal = new Modal('Website', 'website-modal');
+      console.log(websiteModal)
       websiteLink.addEventListener('click', () => {
         websiteModal.open();
         const iframe = document.createElement('iframe');
@@ -128,3 +129,40 @@ function displayRestaurants(restaurants) {
 
   });
 }
+class Modal {
+  constructor(title, id) {
+    this.title = title;
+    this.id = id;
+    this.modal = document.createElement('div');
+    this.modal.classList.add('modal');
+    this.modal.id = this.id;
+    const modalContent = document.createElement('div');
+    modalContent.classList.add('modal-content');
+    const modalHeader = document.createElement('div');
+    modalHeader.classList.add('modal-header');
+    const modalTitle = document.createElement('h2');
+    modalTitle.textContent = this.title;
+    const modalClose = document.createElement('span');
+    modalClose.classList.add('modal-close');
+    modalClose.innerHTML = '&times;';
+    modalClose.addEventListener('click', () => this.close());
+    modalHeader.appendChild(modalTitle);
+    modalHeader.appendChild(modalClose);
+    modalContent.appendChild(modalHeader);
+    this.content = document.createElement('div');
+    this.content.classList.add('modal-body');
+    modalContent.appendChild(this.content);
+    this.modal.appendChild(modalContent);
+  }
+
+  open() {
+    document.body.appendChild(this.modal);
+    document.body.style.overflow = 'hidden';
+  }
+
+  close() {
+    document.body.removeChild(this.modal);
+    document.body.style.overflow = 'auto';
+  }
+}
+
