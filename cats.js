@@ -1,4 +1,5 @@
-import restaurants from "/scrapping/rest.js";
+import restaurants from "./scrapping/rest.js";
+console.log(restaurants);
 
 //commentaire
 const categories = [];

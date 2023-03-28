@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="modal.css">
+  <script src="modal.js"></script>
+  <script src="cats.js"></script>
+
   <title>Restaurant List</title>
 </head>
 
@@ -13,15 +17,22 @@
     <h1 class="Titre">WILD EATS</h1>
 
   </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <ul class="modal-details">
+        <li><strong>Address:</strong> <span id="modal-address"></span></li>
+        <li><strong>Phone:</strong> <span id="modal-phone"></span></li>
+        <li><strong>Website:</strong> <a id="modal-website" href="" target="_blank"></a></li>
+        <li><strong>Price:</strong> <span id="modal-price"></span></li>
+      </ul>
+    </div>
+  </div>
 
-  <!--  <h1>Les meilleurs restaurants sur valence pour le plaisir de vos papilles</h1>
-  
-  <!--  <h2>Restaurant List</h2>
-  <ul id="restaurant-list"></ul>
-  <script src="script.js"></script> -->
-  <!-- <div id="categories"></div>
 
-  <div id="categories-container"></div> -->
+
+  <div id="categories-container"></div>
   <h2>Liste des Restaurants</h2>
   <div class="centerdiv">
     <div class=" bibli">
