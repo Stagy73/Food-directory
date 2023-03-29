@@ -204,11 +204,6 @@ li {
     border-radius: 10px;
 }
 
-.popup {
-    background-color: yellow !important;
-
-
-}
 
 .website {
     background-color: #7a6323;
@@ -250,7 +245,7 @@ li {
 }
 
  #searchbar {
-     margin-left: 68%;
+     margin-left: 78%;
      padding: 15px;
      border-radius: 10px;
      background-color: #FFFEA5;
@@ -267,7 +262,7 @@ li {
        margin-left: 90px;
    }
 
-   /*.resto {
+   .resto {
        display: list-item;
-       visibility: hidden;
-   }*/
+       
+   }
