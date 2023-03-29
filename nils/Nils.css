@@ -1,8 +1,0 @@
-#pic {
-  width:30%;
-  transition: transform 1s;
-}
-#pic:hover {
-  transform: rotate(360deg);
-}
-

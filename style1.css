@@ -2,108 +2,241 @@
     margin: 0px;
 }
 
+/*blanc cassé / orangé */
+:root {
+    --primecolor: rgb(254, 254, 226);
+    /* --buttoncolor: #d4af37; */
+    --buttoncolor: #D2B48C;
+    --secondcolor: linear-gradient(41deg, rgba(245, 245, 222, 1) 0%, rgba(231, 176, 128, 1) 45%, rgba(254, 254, 226, 1) 100%);
+}
+
+/* rose / bordeau */
+/* :root {
+    --primecolor: rgb(255, 255, 255);
+    --buttoncolor: rgb(160, 162, 201);
+    --secondcolor: rgb(76, 75, 77);
+} */
+
 #categories {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
-
+    color: white;
+    background: var(--secondcolor);
+    border-radius: 10px;
+    border: 1px solid #000000;
 }
 
 button {
-    width: 120px;
-    margin: 15px;
+    display: inline-block;
+    background: var(--buttoncolor);
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.57);
+    border: 4px double #CCCCCC;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-style: oblique;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+}
+
+button:hover {
+    background-color: white;
 }
 
 .bibli {
     display: flex;
     flex-direction: row;
-
 }
-
 
 #restaurantList {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-
-
-    background-color: white;
     align-items: center;
     list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    gap: 75px;
+    margin: auto;
+
 }
 
 
-
-
-/* 
 .restaurantUl {
-    background-color: rgb(196, 240, 225);
-
-
-    padding: 2rem;
-    margin: 2rem;
+    /* padding: 1rem; */
+    color: whitesmoke;
     list-style: none;
-} */
-
-.restaurantUl {
-    background-color: white;
-
-    padding: 1rem;
-
-
-}
-
-
-.restaurantUl li {
-    flex-basis: 32%;
-    background-color: black;
+    text-decoration: none;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
-    margin-bottom: 1rem;
-    background-color: black;
-    border-radius: 5px;
-    padding: 1rem;
+    align-items: center;
+    background: var(--secondcolor);
+    border-radius: 10px;
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-size: 20px; */
+    padding: 0px;
+    /* height: 418.13px; */
+    max-width: 375px;
+    box-shadow: 3px 3px 0px 4px rgba(0, 0, 0, 0.57);
+}
+
+.restaurantUl>li {
+    justify-content: center;
+    align-items: center;
 }
 
 body {
-    background-color: rgb(30, 29, 29);
+    background: var(--primecolor);
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    position: relative;
 }
-
 
 h1 {
-    font-size: 45px;
-    color: black;
     font-style: oblique;
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+    border: transparent;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    color: white;
-    font-style: oblique;
+.Titre {
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+    font-size: 100px;
 }
 
 h2 {
-    color: white;
-    ;
+    display: flex;
+
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+    background: var(--primecolor);
+    margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 .food {
-    background-image: url(src/pictureplat.jpg);
+    background-image: url(src/pictureplatbis.jpg);
     background-position: center;
     background-size: cover;
     padding: 10rem;
-    color: black;
-    text-align: left;
     text-align: center;
-    text-size-adjust: auto;
+    border-bottom: 1px solid #000000;
+}
+
+/*a:visited {color: black;
+
+}*/
+
+img {
+    width: 375px;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+.restaurant-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 375px;
+    color: #fff;
+}
+
+.restaurant-title {
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+    /* color: rgb(40, 37, 37); */
+    font-size: 30px;
+    max-width: 375px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+.restaurant-map>iframe {
+    border-radius: 10px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(231, 212, 204);
+}
+
+p {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-style: oblique;
+    font-weight: bold;
 }
