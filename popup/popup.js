@@ -1,10 +1,14 @@
-('../scrapping/rest.js')
-  .then(response => response.json())
-  .then(data) {
-  // Get a list of all categories
-  const categories = [...new Set(data.map(restaurant => restaurant.categoryName))];
+import restaurants from "/scrapping/rest.js";
+//a.restaurant.title.addEventListener('click') 
+function displayRestClickUser() {
 
 }
+const categories = [];
+restaurants.forEach(restaurant => {
+  if (!categories.includes(restaurant.categoryName)) {
+    categories.push(restaurant.categoryName);
+  }
+});
 
 // adress li
 const addressLi = document.createElement('li');

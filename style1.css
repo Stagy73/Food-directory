@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 #categories {
     display: flex;
     flex-direction: column;
@@ -23,28 +27,29 @@ button {
     margin: 5px;
     font-style: oblique;
     margin-bottom: 70px;
-    text-shadow:   -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000,
-     1px 1px 2px #141414,
-     1px 1px 3px #141414,
-     1px 1px 5px #141414,
-     1px 1px 7px #141414,
-     1px 1px 10px #141414,
-     1px 1px 12px #141414,
-     1px 1px 18px #141414;color:#fff;
-    
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+
 }
 
 button:hover {
     background-color: forestgreen;
-  }
+}
 
 .bibli {
     display: flex;
     flex-direction: row;
-    
+
 }
 
 #restaurantList {
@@ -56,28 +61,42 @@ button:hover {
     list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    margin-left: 100px;
-}
+    gap: 75px;
+    margin-bottom: 75px;
+    text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000,
+            1px 1px 2px #141414,
+            1px 1px 3px #141414,
+            1px 1px 5px #141414,
+            1px 1px 7px #141414,
+            1px 1px 10px #141414,
+            1px 1px 12px #141414,
+            1px 1px 18px #141414;
+        color: #fff;;
+    }
+
 
 .restaurantUl {
     padding: 1rem;
     color: whitesmoke;
     list-style: none;
     text-decoration: none;
-    display: grid; 
-        grid-auto-columns: 100px 100px;
-        grid-template-columns: 125px 125px 125px;
-        grid-template-rows: repeat(3, 100px);
-        gap: 10px; 
-        grid-template-areas: 10px;
-        background-color: goldenrod;
-        border-radius: 10px;
-        align-self: center;
+    display: grid;
+    grid-auto-columns: 100px 100px;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-areas: 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    
-      }
-      
+    padding: 0px;
+
+}
+
 
 body {
     background-color: bisque;
@@ -94,12 +113,13 @@ body {
 h1 {
     font-style: oblique;
     border: transparent;
-    
-    }
+
+}
 
 .Titre {
-    text-shadow:0 0 4px #FF0000,0 0 50px #FF0000,0px 0px 14px #FF0000, 0 0 100px #FF0000, 0 0 150px #FF0000, 0 0 150px #FF0000, 0 0 550px #CA0000, 0 0 250px #CA0000, 0 0 350px #CA0000, 0 0 250px #CA0000;color:#FFD000;
-    font-size: 100px; 
+    text-shadow: 0 0 4px #FF0000, 0 0 50px #FF0000, 0px 0px 14px #FF0000, 0 0 100px #FF0000, 0 0 150px #FF0000, 0 0 150px #FF0000, 0 0 550px #CA0000, 0 0 250px #CA0000, 0 0 350px #CA0000, 0 0 250px #CA0000;
+    color: #FFD000;
+    font-size: 100px;
 }
 
 h2 {
@@ -112,10 +132,12 @@ h2 {
    #FF62 4px 4px 0,
    #000000 6px 6px 0.5px,
    #333 8px 11px 10px;color:#FFFEA5;
+    margin: 30px;
+
     }
 
 .food {
-    background-image: url(src/pictureplat.jpg);
+    background-image: url(src/pictureplatbis.jpg);
     background-position: center;
     background-size: cover;
     padding: 10rem;
@@ -124,6 +146,63 @@ h2 {
 }
 
 a:visited {
-    color: whitesmoke;
+    color: white;
+    list-style: none;
 
-  }
+}
+
+img {
+    width: 375px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.popup {
+    background-color: #7a6323;
+}
+
+ /* The modal container */
+ .modal {
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     z-index: 1;
+     /* Sit on top */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: rgba(0, 0, 0, 0.4);
+     /* Black with opacity */
+ }
+
+ /* Modal content */
+ .modal-content {
+     background-color: #FEFEFE;
+     margin: 15% auto;
+     /* 15% from the top and centered */
+     padding: 20px;
+     border: 1px solid #888;
+     width: 80%;
+     /* Could be more or less, depending on screen size */
+ }
+
+ /* Close button */
+ .close {
+     color: #aaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+     color: black;
+     text-decoration: none;
+     cursor: pointer;
+ }
