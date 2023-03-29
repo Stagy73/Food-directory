@@ -1,7 +1,7 @@
 const restaurants = [
   {
     "title": "Restaurant La Casadaline",
-    "categoryName": "SemiGastro",
+    "categoryName": "Semi-Gastro",
     // slug = nom du dossier dans /SRC
     slug: "la-casadaline",
 
@@ -712,29 +712,6 @@ const restaurants = [
     "url": "https://www.google.com/maps/place/Restaurant+Jack+and+Jill/@44.9191739,4.8855526,17z/data=!3m1!4b1!4m6!3m5!1s0x47f5583b6116c99d:0x444a4391e58c8312!8m2!3d44.9191739!4d4.8855526!16s%2Fg%2F1hc1jf3k7?hl=fr"
   },
   {
-    "title": "Restaurant 5 et 5 Valence",
-    slup: "5-et-5-valence",
-    "subTitle": null,
-    "description": null,
-    "price": "$$$",
-    "menu": null,
-    "categoryName": "Brasserie",
-    "address": "Chem. du Plt de Lautagne 308, 26000 Valence, France",
-    "locatedIn": null,
-    "neighborhood": "Chem. du Plt de Lautagne 308",
-    "street": "Chem. du Plt de Lautagne 308",
-    "city": "Valence",
-    "postalCode": "26000",
-    "state": null,
-    "countryCode": "FR",
-    "plusCode": "WW33+H3 Valence, France",
-    "website": "https://5et5.restaurant/",
-    "phone": "+33 4 28 70 80 65",
-    "temporarilyClosed": false,
-    "claimThisBusiness": false,
-    "url": "https://www.google.com/maps/place/Restaurant+5+et+5+Valence/@44.9039165,4.9026358,17z/data=!3m1!4b1!4m6!3m5!1s0x47f557c4c268690d:0x6c178b5f396f5e84!8m2!3d44.9039165!4d4.9026358!16s%2Fg%2F11fp8k5wys?hl=fr"
-  },
-  {
     "title": "Le Romarin",
     slug: "le-romarin",
     "subTitle": null,
@@ -897,6 +874,7 @@ const restaurants = [
   },
   {
     "title": "Maison Pic",
+    slug: "maison-pic",
     "price": "$$$$",
     "categoryName": "Semi-Gastro",
     "address": "285 Av. Victor Hugo, 26000 Valence",
