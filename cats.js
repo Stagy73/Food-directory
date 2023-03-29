@@ -1,5 +1,5 @@
-import restaurants from "./scrapping/rest.js";
-console.log(restaurants);
+import restaurants from "/scrapping/rest.js";
+
 //commentaire
 const categories = [];
 restaurants.forEach(restaurant => {
@@ -62,19 +62,18 @@ function displayRestaurants(restaurants) {
         restDetails(siblings);
         detailsDisplayed = true;
       }
-      event.preventDefault()
     }
     //function populate restaurant details once retaurant.title is clicked (via eventListener)
     function restDetails(siblings) {
       // Create a div to hold the restaurant details
       const detailsDiv = document.createElement("div");
       detailsDiv.classList.add("restaurant-details");
-      restaurantUl.appendChild(detailsDiv);
+
       // Add the restaurant details to the div
       const addressLi = document.createElement("li");
       addressLi.textContent = restaurant.address;
       detailsDiv.appendChild(addressLi);
-      // restaurantUl.appendChild(addressLi);
+
       const phoneLi = document.createElement("li");
       phoneLi.textContent = restaurant.phone;
       detailsDiv.append(phoneLi);
@@ -93,15 +92,7 @@ function displayRestaurants(restaurants) {
       const priceLi = document.createElement("li");
       priceLi.textContent = restaurant.price;
       detailsDiv.appendChild(priceLi);
-      const mapLi = document.createElement("li");
-      const mapDiv = document.createElement("div");
-      mapDiv.classList.add("restaurant-map");
-      const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyB4TKawJVgNVaaKOUwbg2MAcQywVSpNKRc&q=${encodeURIComponent(
-        restaurant.address
-      )}`;
-      mapDiv.innerHTML = `<iframe width="100%" height="300" frameborder="0" style="border:0" src="${mapUrl}" allowfullscreen></iframe>`;
-      mapLi.appendChild(mapDiv);
-      detailsDiv.appendChild(mapLi);
+
       // Add the details div to the parent element
       siblings.appendChild(detailsDiv);
     }
