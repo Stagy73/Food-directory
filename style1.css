@@ -3,9 +3,9 @@
 }
 
 :root {
-    --primecolor: rgb(247, 215, 181);
-    --buttoncolor: rgb(245, 217, 152);
-    --secondcolor: burlywood;
+    --primecolor: rgb(151, 232, 245);
+    --buttoncolor: rgb(105, 98, 231);
+    --secondcolor: rgb(79, 137, 162);
 }
 
 #categories {
@@ -84,7 +84,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--buttoncolor);
+    background-color: var(--secondcolor);
     border-radius: 10px;
     align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -103,7 +103,6 @@ button:hover {
 body {
     background-color: var(--primecolor);
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 h1 {
@@ -129,7 +128,7 @@ h1 {
 
 h2 {
     display: flex;
-    color: black;
+
     font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
@@ -181,7 +180,7 @@ img {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 375px;
-    color: #000;
+    color: #fff;
 }
 
 .restaurant-title {
@@ -211,4 +210,12 @@ li {
 
 .restaurant-map>iframe {
     border-radius: 10px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(90, 188, 230);
 }
