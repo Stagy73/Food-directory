@@ -83,11 +83,13 @@ function displayRestaurants(restaurants) {
       // Create a div to hold the restaurant details
       const detailsDiv = document.createElement("div");
       detailsDiv.classList.add("restaurant-details");
+      restaurantUl.appendChild(detailsDiv);
 
       // Add the restaurant details to the div
       const addressLi = document.createElement("li");
       addressLi.textContent = restaurant.address;
-      detailsDiv.appendChild(addressLi);
+      // detailsDiv.appendChild(addressLi);
+      restaurantUl.appendChild(addressLi);
 
       const phoneLi = document.createElement("li");
       phoneLi.textContent = restaurant.phone;
