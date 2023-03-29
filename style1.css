@@ -8,13 +8,15 @@
     justify-content: flex-start;
     align-items: center;
     color: white;
+    background-color: #cdee7b;
 }
 
 button {
     display: inline-block;
     background-color: burlywood;
     border-radius: 10px;
-    border: 4px double #cccccc;
+    box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.57);
+    border: 4px double #CCCCCC;
     text-align: center;
     font-size: 20px;
     padding: 20px;
@@ -26,7 +28,8 @@ button {
     cursor: pointer;
     margin: 5px;
     font-style: oblique;
-    margin-bottom: 70px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     text-shadow: -1px -1px 0 #000,
         1px -1px 0 #000,
         -1px 1px 0 #000,
@@ -39,7 +42,6 @@ button {
         1px 1px 12px #141414,
         1px 1px 18px #141414;
     color: #fff;
-
 }
 
 button:hover {
@@ -49,7 +51,6 @@ button:hover {
 .bibli {
     display: flex;
     flex-direction: row;
-
 }
 
 #restaurantList {
@@ -63,50 +64,48 @@ button:hover {
     font-size: 20px;
     gap: 75px;
     margin-bottom: 75px;
-
+    padding: 10px;
 }
 
 .restaurantUl {
-    padding: 1rem;
+    /* padding: 1rem; */
     color: whitesmoke;
     list-style: none;
     text-decoration: none;
-    display: grid;
-    grid-auto-columns: 100px 100px;
-    grid-template-columns: 125px 125px 125px;
-    grid-template-rows: repeat(3, 100px);
-    grid-template-areas: 10px;
-    background-color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 227, 186);
     border-radius: 10px;
     align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding: 0px;
-
+    /* height: 418.13px; */
+    max-width: 375px;
+    box-shadow: 3px 3px 0px 4px rgba(0, 0, 0, 0.57);
 }
 
+.restaurantUl>li {
+    justify-content: center;
+    align-items: center;
+}
 
 body {
-    background-color: bisque;
+    background-color: rgb(247, 215, 181);
     font-family: Arial, Helvetica, sans-serif;
-    background: #000000;
-    background: #000000;
-    background: #000000;
-    background: #000000;
-    background: -webkit-linear-gradient(0deg, #000000 0%, #7a6323 100%);
-    background: linear-gradient(0deg, #000000 0%, #7a6323 100%);
 
 }
 
 h1 {
     font-style: oblique;
     border: transparent;
-
 }
 
 .Titre {
     text-shadow: 0 0 4px #FF0000, 0 0 50px #FF0000, 0px 0px 14px #FF0000, 0 0 100px #FF0000, 0 0 150px #FF0000, 0 0 150px #FF0000, 0 0 550px #CA0000, 0 0 250px #CA0000, 0 0 350px #CA0000, 0 0 250px #CA0000;
-    color: #FFD000;
+    color: #1d1717;
     font-size: 100px;
 }
 
@@ -121,6 +120,7 @@ h2 {
         #000000 6px 6px 0.5px,
         #333 8px 11px 10px;
     color: #FFFEA5;
+    background-color: #feadad;
 }
 
 .food {
@@ -129,18 +129,18 @@ h2 {
     background-size: cover;
     padding: 10rem;
     text-align: center;
-
 }
 
-a:visited {
-    color: black;
-
-}
+/* a:visited {
+    color: rgb(221, 32, 32);
+    font-size: 100px;
+} */
 
 img {
     width: 375px;
     height: 300px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .restaurant-details {
@@ -151,9 +151,23 @@ img {
     text-align: center;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #2cf40d;
-    width: 250px;
-
+    width: 375px;
+    color: #000;
 }
 
-.restaurant-title {}
+.restaurant-title {
+    color: rgb(221, 32, 32);
+    font-size: 40px;
+    max-width: 375px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+.restaurant-map>iframe {
+    border-radius: 10px;
+}
