@@ -2,11 +2,20 @@
     margin: 0px;
 }
 
+/*blanc cassé / orangé */
 :root {
-    --primecolor: rgb(151, 232, 245);
-    --buttoncolor: rgb(105, 98, 231);
-    --secondcolor: rgb(79, 137, 162);
+    --primecolor: rgb(254, 254, 226);
+    /* --buttoncolor: #d4af37; */
+    --buttoncolor: #D2B48C;
+    --secondcolor: linear-gradient(41deg, rgba(245, 245, 222, 1) 0%, rgba(231, 176, 128, 1) 45%, rgba(254, 254, 226, 1) 100%);
 }
+
+/* rose / bordeau */
+/* :root {
+    --primecolor: rgb(255, 255, 255);
+    --buttoncolor: rgb(160, 162, 201);
+    --secondcolor: rgb(76, 75, 77);
+} */
 
 #categories {
     display: flex;
@@ -14,14 +23,14 @@
     justify-content: flex-start;
     align-items: center;
     color: white;
-    background-color: var(--secondcolor);
+    background: var(--secondcolor);
     border-radius: 10px;
     border: 1px solid #000000;
 }
 
 button {
     display: inline-block;
-    background-color: var(--buttoncolor);
+    background: var(--buttoncolor);
     border-radius: 10px;
     box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.57);
     border: 4px double #CCCCCC;
@@ -53,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: forestgreen;
+    background-color: white;
 }
 
 .bibli {
@@ -84,7 +93,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--secondcolor);
+    background: var(--secondcolor);
     border-radius: 10px;
     align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -101,8 +110,9 @@ button:hover {
 }
 
 body {
-    background-color: var(--primecolor);
+    background: var(--primecolor);
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 h1 {
@@ -144,7 +154,7 @@ h2 {
         1px 1px 12px #141414,
         1px 1px 18px #141414;
     color: #fff;
-    background-color: var(--primecolor);
+    background: var(--primecolor);
     margin-top: 15px;
     margin-bottom: 10px;
 }
@@ -217,5 +227,16 @@ a {
 }
 
 a:hover {
-    color: rgb(90, 188, 230);
+    color: rgb(231, 212, 204);
+}
+
+p {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    font-style: oblique;
+    font-weight: bold;
 }
