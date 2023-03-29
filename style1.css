@@ -2,23 +2,31 @@
     margin: 0px;
 }
 
+:root {
+    --primecolor: rgb(247, 215, 181);
+    --buttoncolor: rgb(245, 217, 152);
+    --secondcolor: burlywood;
+}
+
 #categories {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     color: white;
-    background-color: #cdee7b;
+    background-color: var(--secondcolor);
+    border-radius: 10px;
+    border: 1px solid #000000;
 }
 
 button {
     display: inline-block;
-    background-color: burlywood;
+    background-color: var(--buttoncolor);
     border-radius: 10px;
     box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.57);
     border: 4px double #CCCCCC;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
     width: 200px;
     -webkit-transition: all 0.5s;
@@ -76,7 +84,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(244, 227, 186);
+    background-color: var(--buttoncolor);
     border-radius: 10px;
     align-self: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -93,7 +101,7 @@ button:hover {
 }
 
 body {
-    background-color: rgb(247, 215, 181);
+    background-color: var(--primecolor);
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -104,23 +112,42 @@ h1 {
 }
 
 .Titre {
-    text-shadow: 0 0 4px #FF0000, 0 0 50px #FF0000, 0px 0px 14px #FF0000, 0 0 100px #FF0000, 0 0 150px #FF0000, 0 0 150px #FF0000, 0 0 550px #CA0000, 0 0 250px #CA0000, 0 0 350px #CA0000, 0 0 250px #CA0000;
-    color: #1d1717;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
     font-size: 100px;
 }
 
 h2 {
     display: flex;
     color: black;
-    font-size: 35px;
+    font-size: 45px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
-    text-shadow: #800000 2px 2px 0,
-        #FF62 4px 4px 0,
-        #000000 6px 6px 0.5px,
-        #333 8px 11px 10px;
-    color: #FFFEA5;
-    background-color: #feadad;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+    background-color: var(--primecolor);
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 .food {
@@ -129,6 +156,7 @@ h2 {
     background-size: cover;
     padding: 10rem;
     text-align: center;
+    border-bottom: 1px solid #000000;
 }
 
 /* a:visited {
@@ -141,6 +169,7 @@ img {
     height: 300px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-bottom: 1px solid #000000;
 }
 
 .restaurant-details {
@@ -156,8 +185,20 @@ img {
 }
 
 .restaurant-title {
-    color: rgb(221, 32, 32);
-    font-size: 40px;
+    text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px 1px 2px #141414,
+        1px 1px 3px #141414,
+        1px 1px 5px #141414,
+        1px 1px 7px #141414,
+        1px 1px 10px #141414,
+        1px 1px 12px #141414,
+        1px 1px 18px #141414;
+    color: #fff;
+    /* color: rgb(40, 37, 37); */
+    font-size: 30px;
     max-width: 375px;
     display: block;
     text-align: center;
