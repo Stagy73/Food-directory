@@ -882,7 +882,32 @@ const restaurants = [
     "website": "https://anne-sophie-pic.com/",
     "url": "https://www.google.com/maps/place/Maison+Pic/@44.9176581,4.8855296,15z/data=!4m2!3m1!1s0x0:0xff78e52d9ca825be?sa=X&ved=2ahUKEwjR59eAuuf9AhW6bKQEHVwhCucQ_BJ6BAh1EAc",
     "vegan": "non"
-  }
+  },
+
+  {
+    "title": "Le Mestre de la Pizza",
+    slug: "Mestre",
+    "subTitle": null,
+    "description": null,
+    "price": "€",
+    "menu": null,
+    "categoryName": "Pizzeria",
+    "address": "79 Rue Barthélémy de Laffemas, 26000 Valence, France",
+    "locatedIn": null,
+    "neighborhood": "79 Rue Barthélémy de Laffemas",
+    "street": "79 Rue Barthélémy de Laffemas",
+    "city": "Valence",
+    "postalCode": "26000",
+    "state": null,
+    "countryCode": "FR",
+    "plusCode": "WW77+Q9 Valence, France",
+    "website": null,
+    "phone": "+33 6 31 35 76 83",
+    "temporarilyClosed": false,
+    "claimThisBusiness": false,
+    "url": "https://www.google.com/maps/place/Le+D'briff/@44.9144538,4.9134044,17z/data=!3m1!4b1!4m6!3m5!1s0x47f55794961554e7:0x82acef686d0b24ee!8m2!3d44.9144538!4d4.9134044!16s%2Fg%2F11ddwxjhx_?hl=fr"
+  },
+  
 ]
 
 

@@ -35,7 +35,7 @@ button {
     box-shadow: 2px 2px 0px 1px rgba(0, 0, 0, 0.57);
     border: 4px double #CCCCCC;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     padding: 20px;
     width: 200px;
     -webkit-transition: all 0.5s;
@@ -239,4 +239,18 @@ p {
     margin-top: 20px;
     font-style: oblique;
     font-weight: bold;
+}
+
+#searchbar {
+    margin-left: 39%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: var(--buttoncolor);
+}
+
+input[type=text] {
+    width: 20%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
 }
